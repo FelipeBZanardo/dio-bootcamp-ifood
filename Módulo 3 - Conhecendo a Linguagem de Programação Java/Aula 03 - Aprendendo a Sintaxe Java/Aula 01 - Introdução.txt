@@ -1,0 +1,8 @@
+Anatomia da classe:
+	- todo aspecto estrutural:
+		- começo e fim do código
+		- padrão de nomenclatura
+		- declarando variáveis e métodos
+		- identação
+		- organização dos arquivos
+		- Java Beans

@@ -1,0 +1,77 @@
+-----------------------------------
+Escolha sua IDE
+-----------------------------------
+
+	IDE - Integrated Development Enviroment - Ambiente de Desenvolvimento Integrado
+
+	Recursos de desenvolvimento:
+		- Aceleração da escrita com o Auto-complete ou intelliSense (completa blocos de códigos)
+		- Formatação de palavras e bloco de códigos
+		- Análise de erro de sintaxe
+		- Compliação de programa
+		- Depuração (acompanhamento) de execução do programa
+
+-----------------------------------
+Eclipse:
+-----------------------------------
+
+	- Interface simples
+	- Plugins para recursos adicionais
+	- Atalhos de menu
+	- Java Swing - adicionar o plugin WindowBuilder
+	- Mais utilizada no ambiente corporativo com interface bem interativa
+
+-----------------------------------
+NetBeans:
+-----------------------------------
+
+	- Utilizada mais em ambientes acadêmicos e com versão de menu e assistentes em português
+
+-----------------------------------
+IntelliJ:
+-----------------------------------
+
+	- Plataforma de código aberto, mas nem todos os recursos estão disponíveis na versão gratuita
+	- Não é tão simples quanto o eclipse
+	- Salva arquivos automaticamente
+	- Oferece muitos recursos de inteligência para agilidade de nosso desenvolvimento com sugestões de ações bem assertivas
+
+-----------------------------------
+VS Code:
+-----------------------------------
+
+	- Pertence a Microsoft
+	- Editor simples e interativo
+	- Inúmeras extensões e temas
+	- Integração com o NodeJS e Java
+	- Tem grande desempenho de inicialização, codificação e execução dos programas
+	- Hoje muito utilizada por desenvolvedores que já atuam com NodeJS ou plataformas Front-End
+
+-----------------------------------
+Maven:
+----------------------------------- 
+
+	É uma ferramenta de automação de complilação utilizada primeiramente em projetos Java, 
+	mas hoje também é utilizada para construir e gerenciar projetos escritos em C#, Ruby, Scala e etc
+
+-----------------------------------
+Code Snippet: 
+-----------------------------------
+
+	Comando pré-definidos de linhas de código
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Configurando o ambiente da IDE
+-----------------------------------
+
+	- Instalar o JDK: site da oracle
+		- Evitar mudar o diretório da instalação
+		- Conferir se o java está instalado corretamente:
+			- cmd: java -version
+
+	- Instalar VS Code:
+		- VS code in java
+

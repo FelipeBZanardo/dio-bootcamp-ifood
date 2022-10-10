@@ -1,0 +1,213 @@
+-----------------------------------
+Bancos digitais:
+-----------------------------------
+	São instituições financeiras que executam suas atividades de forma 100% online. 
+	Ou seja, praticamente tudo que o cliente precisa é feito por um celular via aplicativo ou no computadior via Browser.
+
+Primeiro passo: definir as plataformas onde o software será executado
+
+-----------------------------------
+Sistema desktop:
+-----------------------------------
+	São sistemas autônomos que podem ser instalados no computador. 
+	Esta instalação normalmente é realizada por um arquivo executável. Como word, excel, antivirus e jogos.
+	Desvantagem: preso no computador, não é possível acessar de outro lugar.
+
+-----------------------------------
+Sistema web:
+-----------------------------------
+ 	Sistemas baseados em tecnologia web, podendo ser utilizados remotamente através de qualquer navegador de internet, 
+	sem a necessidade de instalação e atualização local.
+
+-----------------------------------
+Aplicação móvel:
+-----------------------------------
+	É um software para ser instalado em smartphones e tablets. 
+	É baixado de uma loja on-line, como Google Play ou App Store, direto para seu dispositivo portátil
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------
+UX Design - User Experience
+-----------------------------------
+
+	O Designer da Experiência do Usuário é o processo que visa melhorar a satisfação do usário com um produto ou serviço, 
+	melhorando a usabilidade, a acessibilidade e até mesmo a satisfação proporcionada na interação.
+
+	Monta o esqueleto do front-end da aplicação - Wireframe
+	Cria um protótipo para o desenvolvedor front-end, pode ser feito manualmente ou pelo computador
+
+	- Pesquisa
+	- Protótipo
+	- Personas (quem utiliza o app)
+	- Objetivos
+
+-----------------------------------
+UI Design - User Interface
+-----------------------------------
+
+	O Designer de Interface do Usuário é o profissional responsável em criar o que o usuário irá ver e utilizar o produto.
+	Este profissional entende padrões visuais que podem ajudar o usuário na experiência de utlização do software.
+	Profissional focado em cores, tipografia, microinterações e estilos.
+
+	Promove a criação e o desenvolvimento da interface explorada pelo usuário em um produto ou serviço
+
+	- Design
+	- Tipografia
+	- Cores
+	- Layouts
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------
+Modelo Cliente- Servidor:
+-----------------------------------
+
+	É uma estrutura de aplicação que distribui as tarefas e cargas de trabalho entre os fornecedores de um recusro ou serviço, 
+	designados como servidores e, os requerentes dos serviços, designados como clientes.
+
+	Front End: aplicação para o cliente
+	Back End: aplicação para o servidor
+
+-----------------------------------
+Desenvolvedor Front End
+-----------------------------------
+
+	É o desenvolvedor que programa a parte visual de um site ou aplicativo, ou seja, aquilo que conseguimos interagir. 
+	Quem trabalha com Front End é responsável por desenvolver, por meio de código, uma interface gráfica, 
+	normalmente com as tecnologias base da web (html, css e JS).
+
+-----------------------------------
+IDE
+-----------------------------------
+
+	Ambiente de Desenvolvimento Integrado - é um software para criar aplicações que combina ferramentas 
+	comuns de desenvolvimento em uma única interface gráfica do usuário (GUI).
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Framework:
+-----------------------------------
+
+	É um facilitador.
+	Traz diversas soluções já pré-definidas, que descomplicam o trabalho dos profissionais no desenvolvimento de 
+	aplicativos e outros projetos digitais.
+
+	Exemplo: Angular, Laravel e Vue.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Desenvolvedor Back End
+-----------------------------------
+
+	Vem da ideia do que tem por trás da aplicação.
+	O Back End trabalha fazendo a ponte entre os dados que vem do navegador rumo ao banco de dados e vice-versa, 
+	sempre  aplicando as devidas regras de negócio, validações e garantias em um ambiente onde o usuário final 
+	não tenha acesso e possa manipular algo
+
+	Exemplo: Java, PHP e C#
+
+	Pega e retorna as requisões de um servidor.
+
+-----------------------------------
+API
+-----------------------------------
+
+	Application Programming Interface, um intermediário de software que permite que dois aplicativos conversem entre si. 
+	Cada vez que você usa um app como o Facebook, envia uma mensagem ou verifica a previsão do temo, você está utilizando uma api.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Desenvolvedor Full Stack
+-----------------------------------
+
+	Trabalha com Back End do aplicativo, bem como o Front End.
+	Precisam ter algumas habilidades em uma ampla variedade de linguagens de programação.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Quality Assurance (QA)
+-----------------------------------
+
+	QA pode ser definido como um conjunto de ações que as empresas realizam como objetivo de entregar aos consumidores 
+	um produto ou serviço com alto nível de qualidede. 
+	No desenvolvimento de software, aplicar os métodos de QA geram confiança e segurança aos clientes, 
+	indicando que os seus produtos terão a qualidade esperada na etapa de implantação.
+
+	O profissional QA deve ter conhecimento sobre as atividades do projeto, além de ter um perfil analítico. 
+	Ele verifica se os padrões de qualidade estão sendo atendidos e se todos os requisitos mínimos esperados no produto serão entregues.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Infraestrutura
+-----------------------------------
+
+	Front End: está armazenado nos aplicativos que serão baixados no GooglePlay, por exemplo.
+	Back End: As APIs são armazenadas em um servidor. O servidor ficam em nuvens
+	Servidores são computadores especiais com grande capacidade de armazenar dados.
+	Há nuvem pública e nuvem privada.
+
+-----------------------------------
+Atividades e profissionais em nuvem privada:
+-----------------------------------
+
+	1 - Segurança da Tecnologia da Informação (lógica e física)
+	2 - Mão de obra especializada (software e hardware)
+	3 - Infraestrutura local
+
+	Sistema operacional para servidores : Windows Server
+
+	Nuvens públicas:
+	- amazom
+	- azure
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Cloud
+-----------------------------------
+
+-----------------------------------
+Nuvem pública:
+-----------------------------------
+
+	Os sistemas em nuvem são sistemas de armazenamento de dados disponibilizados via internet,
+	em vez de servidores físicos tradicionais.
+	Hoje, muitas organizações estão migrando o armazenamaento de dados de servidores físicos para sistemas baseados em nuvem.
+
+	Vantagens da migração para núvem pública:
+
+	1 - Preço (pague somente o que usar)
+	2 - Facilidade de contratação, configuração e infraestrutura
+	3 - Escalabilidade
+	4 - Performance
+
+-----------------------------------
+Profissional de Cloud Computing:
+-----------------------------------
+
+	É responsável pela infraestrutura de nuvem oferecida aos clientes. 
+	Mais do que desenhar sistemas ou ambientes de TI, ele escolhe as trecnologias que serão usadas, 
+	quais operadores são mais interessanes, como as peças vão ser integradas e , no fim, cuida do que foi construído.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Mobile
+-----------------------------------
+	
+	Também existe o desnvolvimento back e front end
+	Geralmente o Back End atende tanto o desenvolvimento web quanto o mobile
+
+	Android Studio: Java/Kotlin - precisa de um computador para o desenvolvimento
+	XCode: Swift - precisa de um computador da apple
+
+-----------------------------------
+Desenvolvivento híbrido - web
+-----------------------------------
+
+	Atende Android e IOS
+	Ionic - Flutter - React Native
+	Não é aconselhável criar um jogo com desenvolvimento híbrido devido a sua perfomance
+

@@ -1,0 +1,134 @@
+-----------------------------------
+Recomendações:
+-----------------------------------
+
+	- Recomendação de programação em inglês
+		- Nome de arquivos, classes e métodos
+
+	- Nome da classe deve ser compatível com o nome do arquivo
+
+	- Classes começam com letras maiúsculas
+
+	- As classes devem ser criadas dentro da pasta "SRC"
+
+	- Se a classe é executável, ou seja, se ela é responsável pela inicialização do projeto, ela deve conter um método main:
+		public static void main (String[] args) {}
+
+	- Imprimir uma mensagem na tela:
+		System.out.println("Digitar a mensagem aqui!");
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------
+Padrão de nomenclatura:
+-----------------------------------
+
+	1) Arquivo .java:	
+		- Cada palavra começa com letra maiúscula
+			- Calculadora.java, CalculadoraCientifica.java
+
+	2) Nome da classe no arquivo:
+		- A classe deve possuir o mesmo nome do arquivo.java
+			- Isso é feito automaticamente pelo IntelliJ
+
+	3) Nome da variável:
+		- Utilizar o padrão camelCase:
+			- Primeira palavra começa com minúscula e a segunda palavra com letra maiúscula
+			- Exemplo: ano e anoFabricacao
+
+	4) Constantes:
+		- Todas as letras são maiúsculas
+		- Palavras são separadas por _
+		- Utilizar a palavra reservada "final"
+		- Exemplo: final int ESTADOS, final int ESTADOS_BRASILEIROS
+
+
+Regras:
+	- Deve conter apenas letras, _ , $ ou números(não inciar com números)
+	- Deve obrigatoriamente iniciar com uma letra, _ ou $. Jamais começar com números
+	- Não pode conter espaços ou acentos
+	- Não pode utilizar palavras reservadas da linguagem
+	- O nome deve ser único dentro do escopo
+
+Declarações inválidas:
+	- numero&um	não pode utilizar símbolos diferentes de _ e $
+	- 1numero	não iniciar com números
+	- numero um	não deve conter espaços
+	- long		long é uma palavra reservada
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Declarações de variáveis e métodos:
+-----------------------------------
+
+Variáveis:
+
+	Tipo Nome = Atribuição (opcional em alguns casos)
+
+	O tipo pode ser uma classe ou tipos primitivos do Java
+
+
+Métodos:
+
+	TipoRetorno NomeObjetivoNoInfinitivo (parâmetros) {}		os parâmetros podem ser opcionais e de tipos diferentes
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Identação
+-----------------------------------
+
+	Escrever o código de forma hierárquica para facilitar a leitura do código
+	Ou seja, tabular o código a nível de escopo.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Organização de arquivos
+-----------------------------------
+
+	A organização é feita através de package (pacotes)
+
+	Existem 3 tipos de projeto
+		- comercial: com
+		- organizacional: org
+		- opensource: org ou opensource
+		- educacional: edu
+
+	- Comerçar com o pacote com o nome de um desses 3 citados a cima
+	- Depois colocar o nome da empresa
+	- E por ultimo o tipo de projeto
+
+	Exemplo:
+		Empresa: HyperTech - nível comercial
+		Package: com.hypertech.notification
+
+
+	app: aplicação
+	model: classes de modelo para aplicação
+	util: utilitários da aplicação
+	service: todas as regras de negócio/serviço da aplicação
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Java Beans
+-----------------------------------
+
+	Iniciativa conceitual da comunidade de como expressar os métodos e classes no projeto
+
+	Sugestões de nomenclatura:
+
+	- Variáveis:
+		- Deve ser clara, sem abreviações ou definição sem sentido
+		- Uma variável é sempre no singular, exceto em arrays ou coleções
+		- Definir um idioma único, de preferência o inglês
+		
+	- Métodos:
+		- Nomeados como verbos
+		- CamelCase
+		- Métodos devem ter apenas uma finalidade, ou seja, calcularImprimir está errado!
+
+
+
+
+
+

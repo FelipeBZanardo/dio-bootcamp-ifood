@@ -1,0 +1,63 @@
+Java Básico
+
+É uma linguagem composta por um conjunto bem definido de funcionalidades (features).
+
+1 - Simples: fácil de entender. Funciona em dispositivos eletrônicos onde menos memória/recursos estão disponíveis
+
+2 - Orientada a Objetos: Tudo em Java é orientado a objetos, excetos os tipos primitivos
+	Pilares da POO:
+		- Classe e Objeto
+		- Encapsulamento
+		- Abstração
+		- Herança
+		- Polimorfismo
+
+3 - Plataforma independente: é possível desenvolver em qualquer plataforma (ambiente de hardware ou software no qual um programa é executado)
+	Código-fonte é compilado para bytecode que por sua vez, não está vinculado a nenhuma platafroma
+
+4 - Portátil: WORA - Write Once Run Anywhere.
+	Escrevendo o código uma vez e pode ser executado em qualquer máquina.
+	A razão disso acontecer é a JVM e o bytecode
+
+5 - Robusta: capaz de lidar com o encerramento inesperado de um programa.
+	- usa gerenciamento de memória forte
+	- fornece coleta de lixo automática
+	- tratamento de exceção e mecanismo de verificação de tipos em Java
+
+6 - Segura: Vírus, adulteração, espionagem podem ser minimixados utilizando Java.
+	Fornece recurso de criptografia e decriptografia para proteção de dados
+
+7 - Interpretada:
+	Java usa um compilador e um interpretador.
+	Os programas são compilados e geram arquivos Bytecode.
+	A JVM é responsável pela interpretação do bytecode
+
+8 - Multi-thread:
+	Thread é um subprocesso leve e independente de um programa em execução (ou seja, processo) que compartilha resursos. 
+	Multi-threading é o nome dado ao processo de vários threads sendo executados simultaneamnte
+
+-------------------------------------------------------------------------------------------------------------------
+
+História do Java:
+
+Criada pela Sun Microsystems
+Em 1991 um projeto baseado em C e C++, criado por James Gosling, vhamou de Oak (carvalho) em homenagem a uma árvore do escritório da Sun
+Mas já existia uma linguagem com esse nome.
+Java é o nome de uma cidade de um tipo de café importado
+Em 1993 com a WWW (World Wide Web) o Java passou a ser utilizado para cirar páginas da web co om conteúdos dinâmicos
+Em 1995 java foi fortemente apresentada para o mundo
+
+Java é utilizado em:
+	- páginas web com conteúdo interativos e dinâmico
+	- aplicações corporativas de grande porte
+	- softwares destinados ao consumidor final
+	- aplicativos para smartphones
+
+JDK 1.0		01/1996		1ª versão usada com copatibilidade de browers
+J2SE 5.0	30/09/2004	Introdução do Generics, Enumeração, Autoboxing, for-eac
+Java SE 8	18/03/2014	Expressões lambdas; foreach, consumer e interfaces no java.util.functions
+				Default methods
+JAva SE 11	25/09/2018	Métodos para ler e escrever Strings em arquivos: readString e  writeString
+				
+
+Java é da Oracle!!! 
