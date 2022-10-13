@@ -1,0 +1,50 @@
+-----------------------------------
+Tipos de Dados
+-----------------------------------
+
+	Em java existe palavras reservadas que representa os tipos primitivos de dados.
+	São 8:
+	
+	Tipo inteiro		- byte		1 byte		-128/127
+				- short		2 bytes		-32768/32767
+				- int		4 bytes		-2147483648/2147483647
+				- long		8 bytes		
+
+	Tipo real		- float		4 bytes
+				- double	8 bytes	
+	Tipo lógico		- boolean
+
+	Caracteres		- char
+
+	Esses tipos não são objetos!!!
+
+-----------------------------------
+Declaração de variáveis:
+-----------------------------------
+
+	<Tipo> <nomeVariavel> = atribuição (opcional);
+
+	long - colocar "L" no final		2000L
+	float - colocar "F" no final		2.5F
+
+-----------------------------------
+Casting
+-----------------------------------
+
+	short numeroCurto = (short) numeroNormal
+
+-----------------------------------
+Variável
+-----------------------------------
+
+	É uma área da memória, associada a um nome, que pode armazenar valores de um determinado tipo
+
+-----------------------------------
+Constantes
+-----------------------------------
+
+	São valores armazenados em memória que não podem ser modificados depois de declarados
+	São escritas em Caps e separado por underline
+	ANO_NASCIMENTO 
+
+	final <Tipo> <NOME_CONSTANTE> = atribuição;

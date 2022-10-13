@@ -1,0 +1,62 @@
+	Operadores são símbolos especiais que estão associados a determinadas operações
+
+-----------------------------------
+Operador de atribuição:
+-----------------------------------
+
+	= 				valor inicial ou alterar o valor de alguma variável
+-----------------------------------
+Operadores aritméticos:
+-----------------------------------
+	
+	Utilizado para realizar operações matemáticas.
+
+	+ adição			se utilizado em Strings, esse operador tem a função de concatenação
+	- subtração
+	* multiplicação
+	/ divisão
+	% resto da divisão
+
+-----------------------------------
+Operadores unários:
+-----------------------------------
+
+	São aplicados juntamente com outro operador aritmético
+	
+	+ operador unário de valor positivo
+	- operador unário de valor negativo
+	++ Operador unário de incremento do valor
+	-- Operador unário de decremento do valor
+	! operador unário lógico de negação
+
+-----------------------------------
+Operador ternário (?):
+-----------------------------------
+
+	É uma forma resumida para definir uma condição e escolher dentre dois valores
+
+	<Expressão condicional> ? <caso seja true> : <caso seja false>
+
+-----------------------------------
+Operadores relacionais:
+-----------------------------------
+
+	Avaliam a relação entre duas variáveis ou expressões.
+		
+	==	igual
+	!=	diferente
+	>	maior
+	>=	maior ou igual
+	< 	menor
+	<=	menor ou igual
+
+-----------------------------------
+Operadores lógicos:
+-----------------------------------
+	
+	Criam expressões lógicas maiores a partir da junção de duas ou mais expressões
+
+	&& and
+	|| or
+
+	

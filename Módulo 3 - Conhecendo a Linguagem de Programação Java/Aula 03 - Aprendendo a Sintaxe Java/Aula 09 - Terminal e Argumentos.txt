@@ -1,0 +1,42 @@
+-----------------------------------
+Terminal
+-----------------------------------
+
+	Não precisamos executar o programa através da IDE, podemos utilizar o terminal
+
+	Quando rodamos o código na IDE, terá uma pasta "bin"(VS Code) ou uma pasta "out"(IntelliJ) com o arquivo compilado .class(arquivo bytecode)
+
+	Para rodar no terminal:
+		- abrir o terminal na pasta com o arquivo .java:
+			javac nomeClasse.java		será gerado um arquivo .class
+		- abrir o terminal na pasta com o arquivo .class
+		java nomeClasse			sem o .class
+
+
+-----------------------------------
+Argumentos
+-----------------------------------
+
+	String[] args
+
+	É possível a entrada de dados utilizando o array de Strings do método main:
+
+	Para isso abrir o terminal na pasta com o arquivo .java:
+		- javac nomeClasse.java
+		- java nomeClasse parametro0 paramentro1 ...
+
+
+-----------------------------------
+Scanner
+-----------------------------------
+
+	Obtém parâmetros de entrada através do terminal
+
+	Melhor interação com entradas de dados, além de masi segurança
+
+	import.java.util.Scanner;
+	Scanner scanner = new Scanner(System.in);
+
+	String nomeVariavel = scanner.next();
+	int nomeVariavel = scanner.nextInt();
+	double nomeVariavel = scanner.nextDouble();

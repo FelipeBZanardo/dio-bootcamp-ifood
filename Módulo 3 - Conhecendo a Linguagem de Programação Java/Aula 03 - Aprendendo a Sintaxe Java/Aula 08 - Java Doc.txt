@@ -1,0 +1,26 @@
+-----------------------------------
+Documentação:
+-----------------------------------
+
+	https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+
+-----------------------------------
+Tag: 
+-----------------------------------
+	Representam dados relevantes para compreensão de uma classe 
+	e os conjuntos de métodos e atributos
+
+@autor		autor/criador
+@version	Versão do recurso disponibilizado
+@since		data de início da disponibilização do recurso
+@param		descrição dos parâmetros dos métodos
+@return		definição do tipo de retorno de um método
+@throws		se o método lança alguma exceção
+
+Javadoc:
+	É um gerador de documentação para documentar a API dos programs em Java,
+	a partir do código-fonte.
+	O resultado é expresso em HTML
+
+	Para isso, executar no terminal:
+		javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java

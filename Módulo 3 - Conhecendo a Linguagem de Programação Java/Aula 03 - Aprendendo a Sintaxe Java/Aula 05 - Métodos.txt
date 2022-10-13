@@ -1,0 +1,43 @@
+Todas as ações das aplicações são consideradas métodos
+
+	visibilidade tipoRetorno nomeMétodo (argumetos opcional) throws Exception{
+		...corpo do método...
+	}
+-----------------------------------
+Um classe é constituída por:
+-----------------------------------
+
+	- atributos: variáveis
+	- métodos: funções ou sub-rotinas
+
+-----------------------------------
+Critérios de nomeação de métodos:
+-----------------------------------
+
+	- deve ser nomeado como verbo
+	- camelCase
+
+-----------------------------------
+Dicas:
+-----------------------------------
+
+	- Cada método deve ser responsável por apenas uma função:
+		calcularImprimir() está errado
+	- Não existem métodos globais! Todos os métodos devem ser definidos dentro de uma classe
+ 
+-----------------------------------
+Tipo de Retorno:
+-----------------------------------
+
+	- algum tipo primitivo: int, float, String, etc
+	- algum objeto criado ou já existente na linguagem Java (String, por exemplo)
+	- void: não há retorno
+	* se houver retorno, o corpo do método deve conter um "return"
+
+-----------------------------------
+Visibilidades dos métodos:
+-----------------------------------
+	- public
+	- private
+	- protected
+	- default

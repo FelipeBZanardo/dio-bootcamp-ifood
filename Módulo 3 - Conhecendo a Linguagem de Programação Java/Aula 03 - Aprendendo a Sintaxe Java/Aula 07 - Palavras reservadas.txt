@@ -1,0 +1,62 @@
+Palavras reservadas são identificadores de uma linguagem que já possuem uma finalidade específica, 
+portanto não podem ser utliizadas para nomes de outras varíaveis , classes, métodos e  atributos
+
+Existem 52 palavras reservadas escritas em letras minúsculas
+
+-----------------------------------
+Controle de pacotes:
+-----------------------------------
+
+	- import: importa classes
+	- package: pacote da classe (pasta)
+
+-----------------------------------
+Modificadores de acesso:
+----------------------------------- 
+
+	- public: acesso de qualquer classe
+	- private: acesso apenas dentro da classe
+	- protected: acesso por classes no mesmo pacote e subclasses
+
+-----------------------------------
+Primitivos:
+-----------------------------------
+
+	- byte
+	- short
+	- int
+	- long
+	- float
+	- double
+	- char
+	- boolean
+	- void: ausência de valor
+-----------------------------------
+Modificadores de classes, variáveis ou métodos:
+-----------------------------------
+
+	- abstract: classe que não pode ser instanciada
+	- class: especifica uma classe
+	- extends: indica a superclasse que a subclasse está estendendo
+	- final: impossibilita que uma classe seja extendida, que um método sobrescrito ou que uma variável seja reinicailizada
+	- implements: indica as interfaces que uma classe irá implementar
+	- interface: especifica uma interface
+	- native: inidca que um método está escrito em uma linguagem depenednte da plataforma, como o C
+	- new: instancia um novo objeto
+	- static: faz um método ou variável pertencer à classe ao invés de às instnaciar
+	- strictfp: precisão de dados
+	- synchonized: método só pode ser acessado por uma thread de cada vez
+	- transient: impede a serealização de campos
+	- volatile: indica que uma variável pode ser alterada durante o uso de threads
+
+-----------------------------------
+Controle de fluxo dentro de um bloco de código:
+-----------------------------------
+
+	- break;
+	- case;
+	- continue;
+	
+
+
+

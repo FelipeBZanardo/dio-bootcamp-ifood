@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26586986-ead5-4d4a-afbd-eba43f1e078e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Aula 03 - Tipos e Variáveis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula 03 - Tipos e Variáveis.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula 04 - Operadores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula 04 - Operadores.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula 05 - Métodos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula 05 - Métodos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula 06 - Escopo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula 06 - Escopo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula 07 - Palavras reservadas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula 07 - Palavras reservadas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula 08 - Java Doc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula 08 - Java Doc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula 09 - Terminal e Argumentos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula 09 - Terminal e Argumentos.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2G2oba1hfz357gWkMpUjOEjI1r6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26586986-ead5-4d4a-afbd-eba43f1e078e" name="Changes" comment="" />
+      <created>1665596112641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665596112641</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

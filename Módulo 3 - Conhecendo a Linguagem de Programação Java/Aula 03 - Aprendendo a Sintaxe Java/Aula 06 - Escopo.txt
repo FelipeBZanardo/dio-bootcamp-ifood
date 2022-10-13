@@ -1,0 +1,9 @@
+Escopo é o ambiente onde uma variável pode ser acessada.
+Em Java, vai de acordo com o bloco onde a variável foi declarada
+
+	- Escopo de classe: 
+		Se a variável for declarada no topo da classe, ela será visível para todos os métodos
+	- Escopo de método:
+		Se a variável for declarada dentro do método, ela será vísivel apenas dentro desse método
+	- Escopo de bloco: 
+		A variável só existe dentro do bloco, exemplo, o bloco if ou for

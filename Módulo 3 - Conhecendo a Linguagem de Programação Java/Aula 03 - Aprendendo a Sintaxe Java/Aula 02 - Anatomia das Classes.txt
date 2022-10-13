@@ -94,7 +94,7 @@ Organização de arquivos
 		- opensource: org ou opensource
 		- educacional: edu
 
-	- Comerçar com o pacote com o nome de um desses 3 citados a cima
+	- Começar com o pacote com o nome de um desses 3 citados a cima
 	- Depois colocar o nome da empresa
 	- E por ultimo o tipo de projeto
 
