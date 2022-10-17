@@ -1,0 +1,30 @@
+Paradigma: Modelo, exemplo a ser seguido
+Programação: Desenvolvimento de uma aplicação
+Orientada: Aquilo que é regido; segue uma orientação
+Objeto: um molde que representa uma determinada classe
+---------------------------------------------------------------------
+
+Bootcamp :
+	- Data final : LocalDate
+	- Data inicial :LocalDate
+	- Nome: String
+	- Descrição: String
+	- Mentorias:
+		- Atributos:	
+			- Título: String
+			- Descrição: String
+			- Data da mentoria: LocalDate
+		- Métodos:
+			- calcularXP
+	- Atividades/Cursos:
+		- Atributos:
+			- Título: String
+			- Descrição: String
+			- Carga Horária: int
+		- Métodos:
+			- calcularXP
+	- Devs:
+		- nome
+		- Mentorias
+		- Atividades
+		

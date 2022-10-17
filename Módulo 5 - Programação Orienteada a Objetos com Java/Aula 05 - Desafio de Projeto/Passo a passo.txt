@@ -1,0 +1,78 @@
+1) Criar o projeto no IntlliJ
+	desafio-poo-dio
+
+2) Dentro do diretório src:
+	- criar o pacote:
+		 br.com.dio.desafio.dominio
+	- criar a classe Main
+
+3) Dentro do pacote domínio criar as classes:
+	- Curso:
+	- Mentoria
+
+4) Criar os atributos das classes do item 3
+	- Curso:
+		private String titulo;
+    		private String descricao;
+    		private int cargaHoraria;
+	
+	- Mentoria:
+		private String titulo;
+   		private String descricao;
+    		private LocalDate data;
+
+5) Criar os métodos getters e setters, toString e o constructor vazio das duas classes
+	
+6) Instanciar as duas classes no método main:
+	Curso curso = new Curso();
+	Mentoria mentoria = new Mentoria();
+
+7) Atribuir através do método set todos os valores necessários para cada classe instanciada:
+
+8) Criar uma classe mãe "Conteúdo" já que as duas classes Curso e Mentoria possuem métodos idênticos "calcularXp"
+	atributos:
+		- protected static final double XP_PADRAO = 10;
+		- private String titulo;
+		- private String descricao
+	método:
+		- public abstract double calcularXP();
+		- getters
+		- setters
+
+9) Extender a Classe Conteudo nas classes Curso e Mentoria
+	extends Conteudo
+
+10) Apagar nas classes Curso e Mentoria tudo que já tiver na classe Mentoria
+	- titulo
+	- descricao
+
+11) Criar a classe Bootcamp:
+	- atributos:
+		- private String nome;
+		- private String descricao;
+		- private final LocalDate DATA_INICAL = LocalDate.now();
+		- private final LocalDate DATA_FINAL = DATA_INICIAL.plusDays(45);
+		- private Set<Dev> devsInscritos = new HashSet<>();
+		- private Set<Conteudo> conteudos = new LinkedHashSet<>();
+
+	- métodos:
+		- getters
+		- setters
+		- equals and hashCode
+	
+			
+
+12) Criar a classe Dev:
+	- atributos:
+		- private String nome;
+		- private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>;
+		- private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>;
+
+	- métodos:
+		- public void inscreverBootcamp(Bootcamp bootcamp){}
+		- public void progredir() {} 
+		- public void calcularTotalXp() {}
+		- getters
+		- setters
+		- equals and hashCode - devido utilizar LinkedHashSet
+		
