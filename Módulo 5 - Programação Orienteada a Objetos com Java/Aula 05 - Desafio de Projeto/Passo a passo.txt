@@ -1,4 +1,4 @@
-1) Criar o projeto no IntlliJ
+1) Criar o projeto no IntelliJ
 	desafio-poo-dio
 
 2) Dentro do diretório src:
