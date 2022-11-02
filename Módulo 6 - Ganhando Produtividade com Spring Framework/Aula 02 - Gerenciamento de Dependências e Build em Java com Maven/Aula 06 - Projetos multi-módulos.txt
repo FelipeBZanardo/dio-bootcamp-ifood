@@ -1,0 +1,17 @@
+-----------------------------------
+Um projeto com vários sub-módulos:
+-----------------------------------
+	
+	- service
+	- core
+	- webapp
+	- controller
+
+-----------------------------------
+Para construir o projeto agragador:
+-----------------------------------
+	
+	mvn archetype:generate -DgroupId=one.digital.inovation -DartifactId=project-parent -Darchetype=maven-quick-start
+	Escolher 8
+	Y
+

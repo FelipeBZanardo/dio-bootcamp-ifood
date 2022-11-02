@@ -1,0 +1,153 @@
+- Implementar recursos HTTP para interação de arquivos JSON
+
+Client ------------------> Server
+
+As respostas às requisições são feitas em formato JSON
+
+-----------------------------------
+API
+-----------------------------------
+
+	Uma API (Interface Application Program) é um código programável que faz a ponte de comunicação entre duas aplicações distintas
+
+-----------------------------------
+REST
+-----------------------------------
+	API REST (Representational State Transfer) é como um guia de boas práticas
+
+-----------------------------------
+RESTful
+-----------------------------------
+
+	É a capacidade de determinado sistema aplicar os princípios de REST
+
+-----------------------------------
+Princípios:
+-----------------------------------
+
+ 	- cliente-servidor: aprimorar a portabilidade entre várias plataformas de interface do usuário e do servidor, permitindo uma evolução independente do sistema
+ 	- interface uniforme: reperesenta uma interação uniforme entre cliente e servidor. Para isso, é preciso ter uma interface que identifique e represente recursos, mensagens autodescritivas, bem como hypermedia (HATEOAS)
+ 	- stateless: indica que cada interação via API tem acesso a dados completos e compreensíveis
+ 	- cache: necessário para reduzir o tempo médio de resposta e eficiência, desempenho e escalabilidade da comunicação
+ 	- camadas: permite que a arquitetura seja menos complexa e altamente flexível
+
+-----------------------------------
+Níveis de maturidade:
+-----------------------------------
+
+	- Level 0: The Swamp of POX
+	- Level 1: Resources
+	- Level 2: HTTP Verbs
+	- Level 3: Hypermedia Controls
+
+-----------------------------------
+Nível 0: ausência de regras:
+-----------------------------------
+
+	É o nível mais baixo.
+	Uma API que implementa apenas esse nível não é considerada REST, pois não segue padrão
+
+	Exemplo:
+		Verbo HTTP		URL			Operação
+		POST			/getUsuario		Pesquisar usuário
+		POST			/salvarUsuario		Salvar
+		POST			/alterarUsuario		Alterar
+		POST			/excluirUsuario		Deletar
+
+	Único verbo fazendo vários tipos de operações, ou seja, sem padrão!
+
+-----------------------------------
+Nível 1: Aplicação de Resources
+-----------------------------------
+
+	Exemplo:
+		Verbo HTTP		URL			Operação
+		GET			/usuarios/1		Pesquisar usuário
+		POST			/usuarios		Salvar
+		PUT			/usuarios/1		Alterar
+		DELETE			/usuarios/1		Deletar
+
+	Agora o verbo está definido adequadamente
+
+-----------------------------------
+Nível 2: Implementação de verbos HTTP
+-----------------------------------
+
+	Encarrega de validar a aplicabilidade dos verbos para finalidades específicas
+
+	Verbo HTTP		Função
+	GET			Retorna Dados
+	POST			Grava dados	
+	PUT			Altera Dados
+	DELETE			Remove Dados
+
+-----------------------------------
+Nível 3: HATEOAS
+-----------------------------------
+
+	Hypermedia as the Engine of Application State.
+	Uma API que implementa esse nível fornece aos seus clientes links que indicarão como poderá ser feita a navegação entre seus recursos. 
+	Ou seja, quem for consumir essa API precisará saber apenas a rota principal e a resposta dessa requisição e terá todas as demais rotas possíveis
+
+	Nível 3 é pouco utilizado.
+	Nível 2 é o mais utilizado
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------
+Controller
+-----------------------------------
+
+	É um recurso que disponibiliza as funcionalidades de negócio da aplicação através do protocolo HTTP
+
+-----------------------------------
+Anotações e configurações:
+-----------------------------------
+
+	- @RestController: bean do component que suporta requisições HTTP com base na arquitetura REST
+	- @RequestMapping("prefix)": determina a URL comum para todos os recursos do Controller
+	- @GetMapping: determina que o método aceitará requisições HTTP do tipo GET
+	- @PostMapping: determina que o método aceitará requisições HTTP do tipo POST
+	- @PutMapping: determina que o método aceitará requisições HTTP do tipo PUT
+	- @DeleteMapping: determina que o método aceitará requisições HTTP do tipo DELETE
+	- @RequestBody: Converte um JSON para o tipo do objeto esperado como parâmetro no método
+	- @PathVariable: Consegue determinar que parte da URL será composta por parâmtros recebidos nas requisições
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Swagger:
+-----------------------------------
+
+	É uma linguagem de descrição de interface para descrever APIs RESTful usando JSON
+	Usado para projetar, construir, documentar e usar serviços da Web RESTful
+
+	<dependency>
+		<groupId>io.springfox</groupId>
+		<artifactId>springfox-swagger-ui</artifactId>
+		<version>2.9.2</version>
+	</dependency>
+
+	<dependency>
+		<groupId>io.springfox</groupId>
+		<artifactId>springfox-swagger2</artifactId>
+		<version>2.9.2</version>
+	</dependency>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Exception Handlers
+-----------------------------------
+
+	O tratamento de exceção é o mecanismo responsável pelo tratamento da ocorrência de condições que alteram o fluxo normal da execução de programas
+
+	Solução 1 - Nível do Controller - @ExceptionHandler
+
+	Solução 2 - ResponseStatusExceptionResolver
+
+
+
+https://github.com/digitalinnovationone/dio-springboot
+
+
+

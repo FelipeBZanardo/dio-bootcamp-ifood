@@ -1,0 +1,109 @@
+-----------------------------------
+Tipos de dependências (2 tipos):
+-----------------------------------
+
+	- Dependência direta : dependências declaradas no pom.xml
+	- Dependência transistiva: dependências obrigatórias das dependências declaradas no pom.xml
+
+
+	mvn install - publica localmente o projeto, ou seja, se torna uma dependência passivel de uso
+
+	Copiar para outro projeto:
+		- Ir no pom do outro projeto e adicionar em dependency:
+			- groupId
+			- archefactID		esses pertences ao projeto origianl a ser copiado
+			- versionId
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Transitividade e escopo
+-----------------------------------
+
+	Problemas com transitividade (dependência transistiva): 
+		- Emaranhado de artefatos que nem todos são utilizados
+		- jar muito grande
+		- Problemas com versão
+
+	Para resolver existem 6 tipos de escopos a serem utilizados
+
+	1) Escopo compile: 
+		- Escopo default: padrão, caso não indique qual o escopo.
+		- Disponível em todos os classpaths
+		- É transitivo
+
+	2) Escopo provided:
+		- Indica que a dependência será fornecida em tempo de execução por uma implementação na JDK ou via container
+		- Exemplos: Servlet API, Java EE APIs
+		- A dependência com esse escopo é adicionado no classpath usado para compilação (compile) e teste, mas não em runtime;
+		- Não é transistiva
+		- <scope>provided</scope>
+
+	3) Escopo runtime
+		- Indica que a dependência é necessária para execução e não para compilação
+		- Maven inclui no classpath dos escopos de runtime e test
+		- <scope>runtime</scope>
+
+	4) Escopo test:
+		- Disponível somente para compilação e execução de testes
+		- Não é transitivo
+		- <scope>test</scope>
+
+	5) Escopo system
+		- Similar ao escopo provided exceto por ser necessário prover o JAR explicitamente
+		- É adicionado no classpath usado para compilação e teste, mas não em runtime
+		- Não é transitiva
+		- <scope>system</scope>
+		- <systemPath></systemPath>
+
+	6) Escopo import
+	- É disponível apenas com uma dependência do tipo pom e com tag <dependencyManagement>
+		- Indica um processo de reutilizar dependências de um projeto
+		<dependecyManagement>
+			<dependecies>
+				<groupId></groupId>
+				<artifactId></artifactId>
+				<version></version>
+				<type>pom</type>
+				<scope>import</scope>
+			</depencies>
+		</dependecyManagement>
+
+
+
+	Classpath: referência de aplicação para a execução
+		- Runtime : tempo de execução
+		- Test: 
+		- Compile
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------
+Dicas:
+-----------------------------------
+
+	1) Ver o classpath:
+
+		mvn dependency:build-classpath -DincludeScope=compile
+		mvn dependency:build-classpath -DincludeScope=test
+		mvn dependency:build-classpath -DincludeScope=runtim,e
+
+	2) Dependências opcionais:
+
+		Utilizado quando uma dependência não é necessária para os projetos que irão reutilizar seu componente
+		Exemplo: gson	
+		<dependecies>
+			<groupId></groupId>
+			<artifactId></artifactId>
+			<version></version>
+			<optional>true</optional>
+		</depencies>
+
+	3) Exclusions:
+
+	Utilizado quando o componente que você usa compartilha uma biblioteca que você já tem ou não quer ter disponível
+	<exclusions>
+		<exclusion>
+			<groupId></groupId>
+			<archefactId></archefactId>
+		<exclusion>
+	</exclusions>

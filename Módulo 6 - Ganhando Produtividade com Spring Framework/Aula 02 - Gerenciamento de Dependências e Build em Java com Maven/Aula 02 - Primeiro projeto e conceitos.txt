@@ -1,0 +1,25 @@
+1) Abrir o cmd na pasta do projeto:
+
+	mvn archetype:generate -DgroupId=one.digitalinovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false
+
+Templates de achetypes estão presente na internet
+
+-----------------------------------
+Principais comandos:
+-----------------------------------
+
+	1) Compilar: compile
+	2) Testar: test
+	3) Empacotar: package
+	4) Limpar diretório de trabalho: clean
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Maven archetype:
+-----------------------------------
+
+	São templates que possibiltam a personalização e a configuração de como um projeto é construído
+	organização de pacotes e arquivos
+
+	- pesquisar por maven archetype list
+

@@ -1,0 +1,52 @@
+-----------------------------------
+POM - Project Object Model
+-----------------------------------
+
+	- Unidade fundamental de trabalho
+	- Formato XML
+	- Detalha o projeto
+	- Detalha como construir o projeto
+	- Maven sempre procura pelo pom.xml para realizar sua execução
+
+-----------------------------------
+Arquivo pom.xml:
+-----------------------------------
+
+	- Nome do projeto
+	- Dependências
+	- Módulos
+	- Configurações de build
+	- Detalhes do projeto (nome, descrição, licença, url)
+	- Configurações de ambiente (repositório, tracking, profiles)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Repositórios:
+-----------------------------------
+
+	- São locais onde podemos encontrar plugins e bibliotecas que o Maven provê
+	- Dois tipos: Local e remoto
+
+	Remoto: local central utilizado pelo Maven para buscar os artefatos.
+	É configurado automaticamente pelo Super Pom para utilizar o Maven central
+
+	maven central: site com todas as dependências
+
+	Local: é o repositório na máquina utilizado pelo Maven para buscar os artefatos.
+	- Estratégia de caching: evita busca externa
+	- Localizações
+	- Windows: %USERPROFILE%\.m2\repository
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Como adicionar dependências no projeto
+-----------------------------------
+
+	- Ir no arquivo pom.xml e acrescentar a dependência em <dependency></dependency>
+	- Não esquecer de atualizar o maven (para fazer isso no terminal basta digitar mvn compile)
+
+	- groupId: é o ID da organização. Segue as regras de pacotes Java
+	- artifactId: Nome do projeto
+	- Version: número da versão utilizada
+
+

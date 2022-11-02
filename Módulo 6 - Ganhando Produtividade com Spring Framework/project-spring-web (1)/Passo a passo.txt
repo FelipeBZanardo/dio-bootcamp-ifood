@@ -1,0 +1,66 @@
+1) acessar o site:
+	https://start.spring.io/
+
+2) Selecionar Maven Project e Language Java
+
+3) Preencher: 
+	Group: Nome do grupo organizacional: dio
+	Artifact: Identificação do projeto: my-first-web-api
+	Name: Nome do Projeto (igual ao artifact): my-first-web-api
+	Description:
+	Package name: dio.web.api
+
+4) Adicionar as dependências:
+	- Spring Web
+
+5) Clicar em generate
+
+6) Descompactar o arquivo gerado e abrir no IntelliJ
+
+7) Criar os pacotes "model", "repository", "controller", "configuration";
+
+8) Dentro de model, criar a classe Usuario
+	- Usuario tem os atributos:
+		- id: Integer (usar a wrapper class)
+		- login: String
+		- password: String
+	- construtor vazio
+	- constructor com os atributos, exceto id
+	- métodos getters e setters
+	- toString
+	
+9) Dentro de repository criar a Classe UsuarioRepository
+	métodos:
+		- save
+		- deleteById
+		- findAll
+		- findById
+		- findByUserName
+
+10) Dentro de controller criar a Classe UsuarioController
+	@RestController
+	@RequestMapping("/users")
+
+	atributos:
+		@Autowired
+		private UsuarioRepository repository;
+
+	métodos:
+		- getusers
+		- getOne
+		- deleteUser
+		- postUser
+		- putUser
+
+11) Dentro de configuration criar a Classe SwaggerConfig
+	- OLHAR ARQUIVO "SwaggerConfig.txt"
+	- não esquecer de alterar:
+		.apis(RequestHandlerSelectors.basePackage("dio.me.projectspringweb.controller"))
+
+
+12) Renomear o arquivo aplication.properties para aplication.yml:
+	spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+		

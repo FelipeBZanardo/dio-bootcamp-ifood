@@ -1,0 +1,58 @@
+
+	- A maioria das funcionalidades são providas por plugins
+	- Estilo arquitetural para extensibiliade (criar seu próprio plugin)
+- Escrito prioritariamente em Java e disponibilizados comumente como JARs
+
+	Plugins Maven:
+		- Compile plugin
+		- Clean plugin
+		- Test plugin
+		- Deploy plugin
+		- Jetty plugin
+		- Dependency plugin
+		- Jboss plugin
+		- Surefire plugin
+		- Cobertura plugin
+	
+	Maven é construído dentro de uma arquitetura de plugins
+
+	Plugins mais utilizados:
+	- eclipse
+	- jacoco
+	- ear
+	- war
+	- compile
+	- clean
+	- checkstyle
+	- javadoc
+
+-----------------------------------
+Uso:
+-----------------------------------
+
+	mvn [plugin-name]:[goal-name]
+
+	goal-name: tarefa que o plugin deve executar
+
+	Exemplo: mvn dependency:help
+
+-----------------------------------
+Configuração:
+-----------------------------------
+	
+	Através da tag <build></build>
+
+-----------------------------------
+Na prática:
+-----------------------------------
+
+	Para gerar um jaavadoc
+
+	- Ir até o pom:
+		<build>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.3.1</version>
+			</plugin>
+		</build>

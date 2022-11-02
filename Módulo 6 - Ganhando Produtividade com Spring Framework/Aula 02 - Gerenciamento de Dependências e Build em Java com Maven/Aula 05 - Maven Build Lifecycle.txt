@@ -1,0 +1,51 @@
+-----------------------------------
+Maven Build LifeCycle
+-----------------------------------
+
+	- Conceito de clico de vida de construção
+	- Conceito e os comandos da ferramenta
+	- Composto por 3 ciclos de vida
+	- Cada ciclo possui fases (Maven Phases)
+	- Cada fase possui objetivos (Maven Goals)
+
+
+	Default ---> Clean ---> Site
+
+-----------------------------------
+Default Lifecycle
+-----------------------------------
+
+	- Principal ciclo
+	- Responsável pelo deploy local
+	- Composto por 23 fases :
+		- mvn validate
+		- mvn compile
+		- mvn test-compile
+		- mvn test
+		- mvn integration-test
+		- mvn package
+		- mvn install - publica o component localmente
+		- mvn deploy
+
+-----------------------------------
+Clean Lifecycle (ciclo intermediário)
+-----------------------------------
+
+	- Ciclo intermediário
+	- Responsável pela limpeza do projeto
+	- Composto por 3 fases:
+		- mvn pre-clean - limpeza dos arquivos da pasta target, inclusive ela própria
+		- mvn clean
+		- mvn post-clean
+
+-----------------------------------
+Site LifeCycle - Ciclo final
+-----------------------------------
+
+	- Ciclo final
+	- Responsável pela criação do site de documentação do projeto
+	- Composto por 4 fases :
+		- mvn pre-site
+		- mvn site
+		- mvn post-site
+		- mvn site-deploy

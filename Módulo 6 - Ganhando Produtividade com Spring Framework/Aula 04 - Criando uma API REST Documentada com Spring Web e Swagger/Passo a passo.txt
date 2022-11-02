@@ -1,0 +1,54 @@
+1) acessar o site:
+	https://start.spring.io/
+
+2) Selecionar Maven Project e Language Java
+
+3) Preencher: 
+	Group: Nome do grupo organizacional: dio
+	Artifact: Identificação do projeto: my-first-web-api
+	Name: Nome do Projeto (igual ao artifact): my-first-web-api
+	Description:
+	Package name: dio.web.api
+
+4) Adicionar as dependências:
+	- Spring Web
+
+5) Clicar em generate
+
+6) Descompactar o arquivo gerado e abrir no IntelliJ
+
+7) criar um pacote dentro de dio.web.api chamado de controller
+
+8) Criar uma classe WelcomeController
+
+	@RestController
+	public class WelcomeController {
+    	@GetMapping
+    	public String welcome(){
+        	return "Welcome to My Spring Boot Web API";
+    	}
+	}
+
+9) Criar um pacote model e criar uma Classe Usuario
+
+10) Criar um pacote repository e criar a Classe UserRepository
+
+11) Criar a classe UsuarioController
+
+12) Fazer os testes usando o postMAn
+
+13) Copiar as dependências do Swagger no pom.xml
+
+	<dependency>
+		<groupId>io.springfox</groupId>
+		<artifactId>springfox-swagger2</artifactId>
+		<version>2.9.2</version>
+	</dependency> 
+
+	<dependency>
+		<groupId>io.springfox</groupId>
+		<artifactId>springfox-swagger-ui</artifactId>
+		<version>2.9.2</version>
+	</dependency>
+
+14) criar um pacote doc

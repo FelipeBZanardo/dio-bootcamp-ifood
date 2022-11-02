@@ -1,0 +1,27 @@
+-----------------------------------
+Apache Maven
+-----------------------------------
+
+	- É uma ferramenta para gerenciar build e dependências de um projeto 
+	- Primeira versão em julho de 2004, mantido pela Apache Software Foundation
+
+-----------------------------------
+Qual Problema que o Maven resolve?
+-----------------------------------
+
+	- Realiza testes de comando unitário de forma automatizada
+	- Compila todas as classes existentes na aplicação
+	- Auxilia no empacotamento da aplicação no formato desejado/específico
+	- Compila todas as fontes
+	- Executa testes
+
+JAR - executável Java
+
+-----------------------------------
+O que é Maven?
+-----------------------------------
+
+	- Endereça como o software foi construído e suas dependências(frameworks ou bibliotecas) através do POM (Project Object Model)
+	- Facilita a compreensão do desenvolvedor
+	- Fornece informações de qualidade através de plugins
+
