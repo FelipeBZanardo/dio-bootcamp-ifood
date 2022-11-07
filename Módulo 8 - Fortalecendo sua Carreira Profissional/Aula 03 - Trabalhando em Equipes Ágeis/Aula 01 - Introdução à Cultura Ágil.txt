@@ -1,0 +1,75 @@
+-----------------------------------
+Agilidade:
+-----------------------------------
+
+	- Ser ágil não significa ser mais rápido
+	- É ter facilidade no aprendizado e na adaptação
+	- Agilidade significa eficiência, validar se o caminho está correto
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Manifesto Ágil:
+-----------------------------------
+
+	- Documento criado em fevereiro 2001
+	- Criado por 17 profissionais
+	- Reúne métodos ágeis: XP, DSDM, SCRUM, FDD 
+
+	4 valores manisfeto ágil:
+	1) Indivíduos e interações, mais que processos e ferramentas
+	2) Software em funcionamento mais que documentação abrangente
+	3) Responder a mudanças mais que seguir um plano
+	4) Colaboração com o cliente mais que negociação de contratos
+
+	12 princípios do manifesto ágil:
+	Principais:
+		1) Nossa maior prioridade é satisfazer o cliente através da entrega contínua e adiantada de software com valor agregado
+
+		2) Aceitar mudanças de requisitos, mesmo no fim do desenvolvimento.
+		   Processos ágeis se adequam a mudanças, para que o cliente possa tirar vantagens competitivas
+	
+		6) O método mais eficiente e eficaz de transmitir informações para e entre uma equipe de desenvolvimento é por meio de conversa face a face
+
+		10) Simplicidade: a arte de maximizar a quantidade de trabalho não realizado é essencial
+
+		12) Em intervalos regulares, a equipe reflete sobre como se tornar mais eficaz e então refina e ajusta seu cmportamento de acordo
+
+
+-----------------------------------
+Características de um time ágil:
+-----------------------------------
+
+	- Alinhado com o cliente e stakeholders(parte externa ao time, como cliente ou fornecedor, que são interessados no projeto)
+	- Auto-organizado e responsável
+	- Multidisciplinar
+	- Entrega valor continuamente 
+	- Está sempre aprendendo
+	- Melhoria contínua
+	- Possui métricas e metas claras
+	- Unido
+
+-----------------------------------
+Agilidade na tecnologia:
+-----------------------------------
+
+	- Inovação: 	
+		- Melhorar um processo ou produto
+		- Criar algo diferente, novo
+	- Entregas rápidas
+	- Eficiência:
+		- no processo
+		- no time
+		- nas entregas
+
+-----------------------------------
+VUCA:
+-----------------------------------
+
+	- Volatility: Volátil
+	- Uncertainty: Incerto
+	- Complexity: Complexo
+	- Ambiguity: Ambíguo
+
+
+			

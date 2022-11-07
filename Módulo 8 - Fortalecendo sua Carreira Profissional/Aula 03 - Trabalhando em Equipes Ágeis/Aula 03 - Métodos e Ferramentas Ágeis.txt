@@ -1,0 +1,130 @@
+-----------------------------------
+Métodos ágeis:
+-----------------------------------
+
+	- Framework Scrum
+	- Extreme Programming (XP)
+	- Kanban
+	- OKR
+
+-----------------------------------
+1) SCRUM 
+-----------------------------------
+
+	É um framework leve que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos
+
+	Bases do Scrum:
+		- Empirismo: foco na observação
+		- Lean Thinking: linha de pensamento (criado pela Toyota)
+			melhoria contínua e redução dos disperdícios (tempo e pessoas)
+
+	Pilares do Srum:
+		- Transparência: permite que todos os Ângulos de qualquer processo Scrum sejam observados por qualquer pessoa. 
+			Isto promove um fluxo de informação fácil e transparente em toda a organização e cria uma cultura de trabalho aberta
+		- Inspeção: arte de pensar, no sentido de aplicar uma visão crítica sobre o que está acontecendo. 
+			É detectar variações ou problemas potencialmente indesejáveis
+		- Adaptação: acontece quando o Time Scrum aprende através da transparência e da inspeção e, em seguida, 
+			adaptam o processo ao fazerem melhorias no trabalho que está sendo realizado, evitando, também, novos desvios.
+
+	O framework Scrum é propositalmente incompleto
+	Em vez de fornecer às pessoas instruções detalhadas, as regras do Guia do Srum orientam seus relacionamentos e interações
+
+-----------------------------------
+2) XP: Extreme Programming: 
+-----------------------------------
+
+	Método ágil criado no final da década de 90 para desenvolvimento de software
+
+	É uma metodologia que tem como objetivo criar sitemas com alta qualidade, com base em uma interação próxima com os clientes, 
+	testagem constante e ciclos de desenvolvimento curtos.
+	
+	Objetivo principal: fazer ciclos de entregas rápidos, contínuos e incrementais, para atingir os resultados esperados pelo cliente
+
+	O que tem no XP:
+		- Ciclos
+		- Cerimônias - eventos no SCRUM
+		- Testes
+		- Programação em pares: feita por duas pessoas
+		- Feedback
+		- Aproximação com o cliente
+		- Flexibilidade
+
+-----------------------------------		
+3) Kanban:
+-----------------------------------
+
+	É um método para definir, gerenciar e melhorar serviços que entregam trabalho de conhecimento, como serviços profissionais, 
+	atividades criativas e o design de produtos físicos e de software.
+
+	* A simplicidade e os benefícios que o método proporciona, faz dele um dos mais utilizados em empresas de todos os segmentos
+
+	- Desenvolvido pela Toyota na década de 40
+	- Resolve o problema de Gestão de Estoque
+		Estoque+ = Menos produtos em circulação no mercado
+		Estoque- = Não consegue suprir a demanda que os clientes necessitam
+	
+		O objetivo do Kanban é promover o controle de estoque para que os produtos não excedessem e nem faltasse, trazendo equilíbrio
+
+		Hoje o Kanban funciona como uma ferramenta de Gestão de tarefas
+		 - Em equipes de marketing
+		 - Prestação de serviços
+		 - Desenvolvimento de softwares
+
+	Quadro Kanban:
+	- To do: à fazer
+	- Doing: em andamento
+	- Done: feito
+
+	kanban em japonês significa cartão
+
+-----------------------------------
+4) OKR - Objectives Key Results 
+-----------------------------------
+
+	- É um método de gestão ágil
+	- Criado pelo ex-CEO da Intel Andrew Grove
+	- Objetivo: simplificar a forma de encarar os chamados principais objetivos estratégicos de uma empresa
+	- Usado pelo Google desde 1999
+
+	Objetivos do OKR são descrições qualitativas:
+		- Claro
+		- Inspirador
+		- Desafiador
+		- Alinhado com a missão do negócio
+
+	Exemplos:
+		- Criar uma experiência inesquecível para o cliente em todos os pontos de contato
+		- Crescer as vendas na região sul do país, dominando a região
+		- Tornar-se referência nacional e autoridade absoluta na área de Educação em Tecnologia
+
+	Key Results:
+		são as metas que determinam o atingimento do objetivo
+		
+		- baseadas em indicadores-chave de desempenho (KPIs)
+		- Quantitativas
+		- SMART: Específica, Mensurável, Atingível, Relevante e Temporal
+		
+		Key Results servirão de referência para indicar o PROGRESSO em direção ao objetivo principal
+
+		- De 2 a 5 KR por objetivo
+
+	Benefícios:
+		- Agilidade
+		- Cooperação
+		- Transparência
+		- Monitoramento contínuo
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Ferramentas para gestão ágil:
+-----------------------------------
+
+	- Trello
+	- Jira
+	- Notion
+	- Miro
+	- Monday
+	- EasyRetro
+	- Clickup
+	- Pipefy
+	- Asaba

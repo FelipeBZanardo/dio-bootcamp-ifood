@@ -1,0 +1,51 @@
+-----------------------------------
+Processo: 
+-----------------------------------
+
+	- É recorrente e contínuo
+	- Já se conhece o resultado final
+	- É replicável
+	- Geralmente é repetitivo e realizado regularmente
+
+-----------------------------------
+Projeto:
+-----------------------------------
+
+ 	- Esforço temporário para atingir um objetivo (criar um novo produto, melhorar um processo)
+	- O resultado é exclusivo
+	- Tem início e fim bem definidos 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------
+Gerenciamento de Projetos:
+-----------------------------------
+
+	1) Modelo Tradicional - Cascata(WaterFall)
+
+		Análise -> Projeto (Design) -> Implementação -> Teste -> Entrega/Manutenção
+
+		Uma etapa só começa quando a anterior termina
+
+		- Planejamento inicial:
+			- Escopo
+			- Custo
+		- Cronograma
+		- Valor entregue no final
+
+	2) Modelo Ágil - Scrum
+
+		A entrega não é feita somente no final.
+		A entrega é feita a cada ciclo (Sprint), a cada incremento de valor
+
+		- Planejamento por Sprints
+		- Desenvolvimento iterativo e incremental
+		- Feedback
+
+-----------------------------------
+Gestão Ágil:
+-----------------------------------
+
+	- Flexível e que se adapte às mudanças
+	- Colaborativa e que gere transparência
+	- Voltada ao aprendizado
+	- Entrega Contínua de Valor
