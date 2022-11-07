@@ -1,0 +1,93 @@
+---------------------------------------------------------------------------------------------------------------------------------------
+Spring Framework:
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Framework open source desenvolvido para a plataforma Java baseado nos padrões de projetos 
+de inversão de controle e injeção de dependência
+
+Sua estrutura é composta por módulos afins de reduzir a complexidade no desenvolvimento 
+de aplicações simples ou corporativa (módulo para cada aplicação)
+
+Spring é baseado no módulo core container
+beans: objetos gerenciados pelo container spring
+
+jdbc - interação java com banco de dados
+
+web - interação java web
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Spring versus Java EE:
+---------------------------------------------------------------------------------------------------------------------------------------
+
+- Java EE possui muita burocracia/mais verbosidade
+
+Olhando um pouco a história, há muito, mas muito tempo atrás, o Java EE era realmente muito complicado 
+e nem era necessário entrar numa discussão, usar o Spring era um caminho mais simples e mais fácil de evoluir. 
+Aí chegou a versão 5 do Java EE e a discussão voltou a ficar um pouco mais quente
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Inversão de Controle:
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Inversion of Control ou Ioc, trata-se do redirecionamento do fluxo de execuação de um código retirando 
+parcialemte o controle sobre ele e delegando-o para um container. O propósito é minimixar o acoplamento do código
+
+Sem ioC:
+- primeiro criar o objeto para depois utilizá-lo
+Com ioc:
+- inicia o app e carrega o container
+- todos os objetos são criados, mantidos e instanciados a partir do container
+- quando necessita de um objeto, ele o referencia
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Injeção de Dependências
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Injeção de dependência é um padrão de desencolvimento com a finalidade de manter baixo o nível de acoplamento 
+entre módulos de um sistema 
+
+- os obejtos serão injetados na interface
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Beans:
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Objeto que é instanciado (criado), montado e gerenciado por um container através do princípio da inversão de controle
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Scopes(Escopo)
+---------------------------------------------------------------------------------------------------------------------------------------
+
+5 tipos de escopos
+- Singleton - padrão do spring - um único objeto compartilhado pela aplicação
+- Prototype - padrão do spring - criado uma nova instância a cada requesição ao container
+- Request - HTTP
+- Session - HTTP
+- Global - HTTP
+
+1 - Singleton
+O container do Spring IoC define apenas uma instância do objeto
+
+2 - Prototype
+Será criado um novo objeto a cada solicitação ao container
+
+3 - HTTP - Request
+Um bean será criado para cada requisição HTTP
+Os objetos existirão enquanto a requisição estiver em execução
+
+4 - HTTP Session
+Um bean será criado para a sessão de usuário
+Precisamos acessar a mesma solicitação duas vezes para testar os escopos específicos da web
+
+5- HTTP - Global
+Ou Application Scope cria um bean para o ciclo de vida do contexto da aplicação
+Objetos compartilhados por toda a aplicação
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Autowired
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Uma anotação (indicação) onde deverá ocorrer uma injeção automática de dependência
+- byName: é buscado um método set que corresponde ao nome do bean
+- byType: é considerado o tipo da classe para inclusão do bean
+- byConstructor: usamos o construtor para incluir a dependência

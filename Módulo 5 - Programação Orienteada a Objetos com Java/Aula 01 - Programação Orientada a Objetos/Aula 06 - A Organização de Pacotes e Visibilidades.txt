@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------------------------------------------
+Pacotes:
+--------------------------------------------------------------------------------------------------------------------
+
+"São uma organização física ou lógica criada para separar classes com responsabilidades distintas. 
+Com isso, espera-se que a apçicação fique mais organizada e seja possível separar classes de finalidades 
+e representatividades diferentes."
+
+----------
+Código:
+----------
+
+	-Java:
+		package ...;
+		
+		import ...;
+
+	- C#:
+
+		namespace {...}
+		
+		using ...;
+
+	- Python:
+
+		__init__.py(2.x)
+		
+		from ...
+		import ...
+
+--------------------------------------------------------------------------------------------------------------------
+Visibilidades (ou modificadores de acesso)
+--------------------------------------------------------------------------------------------------------------------
+
+"Um modificador de acesso tem como finalidade determinar até que ponto uma classe, atributo ou método pode ser usado. 
+A utilização de modificadores de acesso é fundamental para o uso efetivo da Orientação a Objetos. 
+Algumas boas práticas e conceitos só são atingidos com o uso correto deles"
+
+----------
+Tipos:
+----------
+
+	- Private
+	- Protected
+	- Public
+
+Em python tudo é public
+
+----------------------------------
+a) Private: Só dentro da classe
+----------------------------------
+
+	- Java e C#:
+
+		private
+
+		private int i;
+		private void do();
+
+-----------------------------------------------------------
+b) Protected: dentro da classe, mesmo pacote e subclasses
+-----------------------------------------------------------
+
+	- Java e C#:
+
+		protected
+
+		protected int i;
+		protected void do();
+
+---------------------------------
+c) Public: em qualquer lugar
+---------------------------------
+
+	- Java e C#:
+
+		public
+
+		public int i;
+		public void do();

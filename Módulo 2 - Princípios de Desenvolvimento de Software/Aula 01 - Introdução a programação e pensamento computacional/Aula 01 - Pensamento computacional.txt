@@ -1,0 +1,127 @@
+			 PENSAMENTO COMPUTACIONAL:
+
+
+Pensamento computacional não se restringe somente ao meio computacional, mas também à matemática, leitura, escrita e outros.
+
+DEFINIÇÂO: "Processo de pensamento envolvido na expressão de soluções em passos computacionais 
+ou algoritmos que podem ser implementados no computador"
+
+-Formulação e resolução de problemas.
+-Tanto o ser humano quanto a máquina devem ser capazes de resolver
+- Não é uma disciplina acadêmica e sim uma habilidade 
+
+O Pensamento computacional é dividido em 4 pilares:
+	1 - Decomposição: dividir um problema complexo em partes
+	2 - Reconhecimento de padrões: verificar similaridades e diferenças
+	3 - Abstração: sair de algo específico para o generalista
+	4 - Design de algoritmos: automatizar. Definir um passo a passo para resolver o problema
+
+Habilidades complementares:
+	1 - Raciocínio lógico: é uma forma de pensamento estruturado que permite encontrar a resolução do problema. Habilidade de treinamento
+		a) Indução: a partir de um fenômeno observado, você é capaz de determinar leis e teorias. Ciências experimentais
+		b) Dedução: é o inverso da indução, onde através de leis e teorias, você é capaz de deduzir previsões e explicações. Ciências exatas.
+		c) Abdução: a partir de uma conclusão é obtido um premissa. Nem sempre a premissa é verdadeira. Processo investigativo e diagnósticos
+				
+			    SINTÉTICA : ABDUÇÃO E INDUÇÃO
+			   /
+		INFERÊNCIA
+			   \
+			    ANALÍTICA : DEDUÇÃO
+
+	2 - Aperfeiçoamento: melhoramento, ato de aperfeiçoar, aprimoramento e refinamento. A partir de uma solução, determinar pontos de melhora e aperfeiçoamento
+		- encontrar uma solução eficiente
+		- otimizar processos
+		- simplificar linhas de código
+		- funções bem definidas
+
+PILAR 1: DECOMPOSIÇÃO:
+	É o primeiro passo para resolver um problema dentro do pensamento computacional.
+	"Dado um problema complexo, devemos quebrá-lo em problemas menores. Portanto, problemas mais fácieis e gerenciavéis"
+
+	Estratégia de análise: quebrar em processos menores
+	Estratégia de síntese: combinar os elementos e retornar ao problema original de maneira coerente dando sentido a solução
+
+	Ordem de execução das tarefas:
+		- Sequencial: dependência entre as tarefas. Execução em fila
+		- Paralelo: Ganha em eficiência e tempo. As tarefas são idependentes
+
+	Como decompor:
+		- identificar ou coletar dados
+		- agregar os dados
+		- funcionalidade
+
+PILAR 2: PADRÕES:
+	- modelo base
+	- estrutura invariante
+	- repetição
+
+	Como reconhecer padrões?
+		Através de similaridades e diferenças, ou seja, grupos conhecidos e desconhecidos
+		Extrair caracteristicas e classificar os dados
+
+	Por que determinar padrões?
+		Generalizar, com objetivo de obeter resolução para problemas diferentes
+
+	Como o computador reconhece padrões?
+		Por comparações
+
+	Exemplos de aplicação de padrões:
+		- classificação de dados
+		- reconhecimento de imagens
+		- reconhecimento de falas
+		- análide de cenas
+		- classificação de documentos
+
+	Áreas que trabalham com padrões:
+		- redes neurais
+		- inteligência artificial
+		- ciência de dados
+		- machine learning
+
+PILAR 3: ABSTRAÇÃO:
+
+	Abstrair: observar um ou mais elementos, avaliando características e propriedades em separado.
+	Abstração: é um processo intelectual de isolamento de um objeto da realidade
+
+	Tornar algo mais geral. Generalizar
+
+	Levar em consideração apenas os pontos essenciais, os detalhes podem ser eliminados
+
+	Exemplos:
+		- máquina de estados finitos
+		- linguagem de programação
+		- protocolos de comunicação
+
+	Como abstrair:
+		1) classificar
+		2) verificar as características
+		3) estender para os outros cenários parecidos.
+
+PILAR 4: ALGORITMOS:
+
+	Definição: são instruções executadas passo a passo para concluir a tarefa
+
+	É eficiente, rápido e trabalhador, mas não opera sozinho
+
+	Computador: recebe, manipula e armazena dados
+	Programa: recebe intruções com passo a passo para o computador realizar
+
+	Qualquer algoritmo deve poder ser compreendido tanto por humano tanto pelo computador
+
+	Como fazer?
+		1) análise: estudo e definição de entrada e saída de dados
+		2) algoritmo: descreve o programa através de ferramentas narrativas(linguagem natural), 
+			      fluxogramas(estrutura gráfica com símbolos pré definidos) e 
+			      pseudocódigos(perto da codificação com regras definidas)
+		3) codificação: o algoritmo é codoficado através de uma linguagem de programação
+
+	Como construir um algoritmo:
+		- compreensão do problema: pontos mais importantes
+		- definição dos dados de entrada: dados fornecidos e cenário
+		- definir processamento: cálculos e restrições
+		- definir dados de saída 
+		- utilizar um método de construção
+		- teste e diagnóstico
+	
+
+

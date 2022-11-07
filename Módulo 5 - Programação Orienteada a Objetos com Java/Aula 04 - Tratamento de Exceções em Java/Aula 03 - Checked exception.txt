@@ -1,0 +1,4 @@
+todas exceções de arquivos:
+throws IOException
+Erro nome ou arquivo não encontrado:
+FileNotFoundException

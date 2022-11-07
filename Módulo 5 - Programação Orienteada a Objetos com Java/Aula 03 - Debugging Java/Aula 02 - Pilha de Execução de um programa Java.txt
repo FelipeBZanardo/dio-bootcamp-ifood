@@ -1,0 +1,10 @@
+public é opcional
+
+O programa em Java se inicia e termina no métod main
+
+No modo debugging:
+- step over: próxima linha
+- step into: entra no método
+- force step into: força a entrada no método
+- step out: contiua a execução 
+- evaluate expression: teste de expressões

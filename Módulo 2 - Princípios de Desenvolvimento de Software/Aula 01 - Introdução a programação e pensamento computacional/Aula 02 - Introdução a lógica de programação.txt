@@ -1,0 +1,34 @@
+LÓGICA:
+	usado na resolução de um problema.
+	É uma forma de pensamento estruturada que auxilia a determinar o que é verdadeiro ou não
+
+PROBLEMA: "Problema é uma questão que foge a uma determinada regra, ou melhor, é um desvio de percurso, 
+o qual impede de atingir um objetivo com eficiência e eficácia"
+
+LÓGICA: "Parte da filosofia que trata das formas do pensamento em geral(dedução, indução, hipótese, 
+inferência e etc) e das operações intelectuais que visam à determinação do que é verdadeiro ou não"
+
+LÓGICA NO ÂMBITO COMPUTACIONAL: "Organização e planejamento das instruções, assertivas em um algoritmo, 
+a fim de viabilizar a implantação de um programa"
+
+TÉCNICAS:
+1) TÉCNICA LINEAR:
+	- modelo tradicional
+	- estrutura hierárquica
+	- muito utlizado na matemática e programação de computadores
+
+	execução sequenciada de uma série de instruções de maneira ordenada
+
+2) TÉCNICA ESTRUTURADA:
+	Não é linear.
+	Podem existir mais de uma opção, ou seja, há condições
+
+3) TÉCNICA MODULAR:
+	Existem módulos controlados por um conjunto de regras e cada módulo possuem suas regras
+
+	Dados de entrega -->  Processo de transformação -->  Dados de saída
+
+	Vantagens: 
+		- simplificação 
+		- decompor o problema
+		- verificação do módulo ao invés do módulo todo

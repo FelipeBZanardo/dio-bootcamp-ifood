@@ -1,0 +1,26 @@
+java.util.Map
+
+- Elementos únicos (key) para cada valor (value)
+- não vem da interface Collection
+
+HasMap: 
+mesma perfomance que linked
+itera os lementos aleatoriamente
+permite chave nula
+
+LinkedHasMap:
+itera pela ordem de inserção
+permite chave nula
+
+TreeMap:
+pior rendimento dos três
+itera pela ordem natural
+não permite chave nula
+
+HasMap:
+Criar um Map:
+	Map<TipoChave, TipoValor> nome = new HasMap<>(){{
+	put(chave, valor);
+}};
+Adicionar elementos no Map:
+	nome.put(chave, valor);

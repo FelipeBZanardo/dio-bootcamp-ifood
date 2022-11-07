@@ -1,0 +1,107 @@
+-----------------------------------------------------------------------------------------------------------
+Operadores Lógicos:
+-----------------------------------------------------------------------------------------------------------
+
+"São símbolos especiais quais são capazes de realizar comparações lógicas entre 
+operandos ou expressões e, em seguida, retornar um resultado"
+
+-----------------------------------------------------------------------------------------------------------
+Tipos:
+-----------------------------------------------------------------------------------------------------------
+
+- Conjunção
+- Disjunção
+- Disjunção exclusiva
+- Negação
+
+---------------
+- Conjunção:
+---------------
+	operação lógica que só é verdadeira quando ambos os operandos ou expressões envolvidas são verdade
+
+	V	V	V
+	V	F	F
+	F	V	F
+	F	F	F
+
+	Simbologia: &&
+	Terminologia: and(e)
+
+---------------
+- Disjunção:
+---------------
+	operação lógica que só é falsa quando ambos os operandos ou expressões envolvidas são falsos
+
+	V	V	V
+	V	F	V
+	F	V	V
+	F	F	F
+
+	Simbologia: ||
+	Terminologia: or(ou)
+
+------------------------
+- Disjunção exclusiva:
+------------------------
+	operação lógica que só é verdade quando ambos os operandos ou expressões envolvidas são opostas
+
+	V	V	F
+	V	F	V
+	F	V	V
+	F	F	F
+
+	Simbologia: ^
+	Terminologia: xor(ou exclusivo)
+
+---------------
+- Negação:
+---------------
+	operação lógica que inverte o valor lógico de um operando ou expressão
+
+	V	F	
+	F	V	
+
+	Simbologia: !
+	Terminologia: inversão
+
+-----------------------------------------------------------------------------------------------------------
+Curiosidade:
+-----------------------------------------------------------------------------------------------------------
+
+- Operadores bitwise: & e |
+- Operadores shift: ~, >>, >>>, <<
+
+-----------------------------------------------------------------------------------------------------------
+Exemplos:
+-----------------------------------------------------------------------------------------------------------
+
+boolean b1 = true;
+boolean b2 = false;
+boolean b3 = true;
+boolean b4 = false;
+
+b1 && b2
+b1 && b3
+b2 || b3
+b2 || b4
+b1 ^ b3
+b4 ^ b1
+!b1
+!b2
+(i1 > i2) || (f2 < f1)
+((i1 + i2) < (f2 - f1)) && true
+
+-----------------------------------------------------------------------------------------------------------
+Boas práticas:
+-----------------------------------------------------------------------------------------------------------
+
+- Crie variáveis auxiliares para guardar resultados intermediários
+
+-----------------------------------------------------------------------------------------------------------
+Exercício:
+-----------------------------------------------------------------------------------------------------------
+	Crie um simples projeto no IntelliJ e codifique os exemplos dos slides anteriores 
+	para compreender as operaçãoes lógicas. Utilize operandos e expressões
+
+
+

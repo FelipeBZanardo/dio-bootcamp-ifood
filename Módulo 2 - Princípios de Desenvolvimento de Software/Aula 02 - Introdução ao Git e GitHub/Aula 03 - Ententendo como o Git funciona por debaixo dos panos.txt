@@ -1,0 +1,103 @@
+=============================================================================================================
+					SHA1
+=============================================================================================================
+"A sigla SHA significa Secure Hash Algorithm (Algoritmo de Hash Seguro),
+é um conjunto de funções hash criptográficas projetadas pela NSA (Agência
+de Segurança Nacional dos EUA)"
+
+SHA1 é um algoritmo de encriptação.
+Essa encriptação gera um conjunto de characteres identificador de 40 dígitos
+Esse conjunto de 40 dígitos é único para cada aplicação.
+SHA1 é uma forma de representar um arquivo
+
+Passo a passo:
+	1º: Ir até a pasta com o arquivo a encriptar
+	2º: botão direito do mouse e esolher a opção Git Bash. O Git vai abrir já no local especificado
+	3º: digitar o seguinte comando: openssl sha1 texto.txt		texto.txt é o nome do arquivo 
+	4º: será gerado um conjunto de 40 caracteres 
+
+
+=============================================================================================================
+					OBJETOS FUNDAMENTAIS DO GIT
+=============================================================================================================
+Blobs: É um objeto que contém metadados dentro dele. 
+	- tem o tipo do objeto
+	- o tamanho do arquivo
+	- \0
+	- conteúdo do arquivo
+	- sha1 do arquivo
+
+Tree: armazenam as blobs - responsável por montar a estrutura do arquivo
+	- \0
+	- blob
+	- sha1
+	- nome do arquivo
+	- pode conter outra tree
+
+Commit:  - responsável por juntar tudo
+	- aponta para um tree
+	- aponta parente(último commit utilizado)
+	- aponta pra o autor
+	- aponta para uma mensagem
+	- possue um timestamp : data que foi criado
+	- o SHA1 desse commit é o hash de toda essa informação
+
+
+Git é um Sistema Distribuído e Seguro!!!
+
+=============================================================================================================
+					CHAVE SSH E TOKEN
+=============================================================================================================
+Chave SSH: é uma forma de estabelecer uma conexão segura entre duas máquinas
+	- há uma chave pública e uma privada
+
+Criar um chave pública e uma chave privada:
+1º passo: abrir o Git Bash
+2º passo: ssh-keygen -t ed25519 -C felipebueno6@hotmail.com		e-mail do github
+3º passo: enter
+4º passo: escolher uma senha 						
+5º passo: confirmar senha
+
+Acessar o arquivo com as chaves: 
+	- as chaves foram salvas em: c/Users/Felipe/.ssh
+1º passo: cd /c/Users/Felipe/.ssh - diretório com as chaves criadas
+2º passo: dir ou ls - listar os arquivos da pasta
+3º passo: cat id_ed25519.pub						sempre usar a chave pública
+4º passo: copiar os dados
+5º passo: logar no site do github
+6º passo: ir no lado direito onde se encontra a foto, ir em settings(definições)
+7º passo: ir em chave ssh e gph
+8º passo: clicar em nova chave ssh
+9º passo: Título: Minha chave Windows
+	  Key: colar os dados copiados no passo 4 
+10º passo: voltar ao git bash
+11º passo: eval $(ssh-agent -s)						Agent pid 2139
+12º passo: ssh-add id_ed25519						usar a chave privada
+13º passo: confirmar a senha						
+
+Clonar um repositório do github:
+1º passo: acessar o github e ir até o arquivo do repositório
+2º passo: copiar a url do SSH
+3º passo: git bash: git clone colar a url do passo anterior
+4º passo: yes
+	Pronto o repositório foi clonado
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Token:
+
+1º passo: acessar github
+2º passo: definiçoes(settings)
+3º passo: developer settings
+4º passo: Tokens de acesso pessoal
+5º passo: gerar novo token
+6º passo: 60 dias
+	  Obeservação(note): "Meu token"
+	  marcar a opção repo(repositório)
+7º passo: gerar token							esse token não será mais visto nesta página, se necessário, gerar outro
+
+Clonar um repositório do github:
+1º passo: acessar o github e ir até o arquivo do repositório
+2º passo: copiar a url do HTTPS
+3º passo: git bash: git clone colar a url do passo anterior
+	  fazer seu login
+	

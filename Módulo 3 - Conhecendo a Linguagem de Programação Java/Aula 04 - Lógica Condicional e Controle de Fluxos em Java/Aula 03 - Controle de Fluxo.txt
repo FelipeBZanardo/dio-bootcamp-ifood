@@ -1,0 +1,83 @@
+-----------------------------------------------------------------------------------------------------------
+Controle de Fluxo:
+-----------------------------------------------------------------------------------------------------------
+
+"São estruturas que tem a capacidade de direcionar o fluxo de execução do código"
+
+-----------------------------------------------------------------------------------------------------------
+Tipos:
+-----------------------------------------------------------------------------------------------------------
+
+- Decisão: if, if-else, if-else-if, switch e operador ternário
+- Repetição: for, while, do while
+- Interrupção: break, continue e return
+
+-------------
+- Decisão:
+-------------
+	estrutura que avalia uma condição booleana ou variável par direcionar o fluxo de execução
+
+	Opções: if(se), switch(escolha) e operador ternário
+
+
+1) if:
+
+	if, if-else, if-else-if, if-else-if-else
+
+	if (condição){}
+	
+	if (condição){
+	}else{} 
+
+	if (condição){
+	}else if(condição){
+	}else{}
+
+
+2) operador ternário:
+
+	condição ? true : false;
+
+	condição ? true : null;		caso não exista o else
+
+
+
+3) Switch:
+
+	switch (variável){
+		case 1:
+		break;
+		case 2:
+		break;
+		default:
+		break;
+		}
+
+	variável: byte, short, char, *int, *Enum, *String
+	* mais utilizados
+
+-----------------------------------------------------------------------------------------------------------
+Boas práticas:
+-----------------------------------------------------------------------------------------------------------
+
+	- Switch é para valores exatos e if para expressões booleanas
+	- Evitar usar o default do switch para "cases genéricos"
+	- Evitar o efeito "flecha" dos ifs
+	- Evitar muitos ifs aninhados
+	- Usar a boa prática da aula 2 para diminuir o tamanho do if
+
+-----------------------------------------------------------------------------------------------------------
+Exercício:
+-----------------------------------------------------------------------------------------------------------
+
+	Criar um simples projeto no IntelliJ e criar variáveis e expressões 
+	para usar nas estruturas if e switch
+
+	Com if, exiba o nome do mês do ano de acordo com seu néumero.
+	Evite o efeito flecha. Faça também outro if que verifique se o mês é julho,
+	dezembro ou janeiro, para assim exibir o texto ""
+
+	Com switch use String para a apartir do dia da semana, exibir seu número. 
+	Ainda no switch, faça outro exemplo onde, se uma variável inteira for entre 1 e 3,
+	exibir o texto certo". Se for 4, exibir "errado", se for 5, "Talvez". 
+	Para os demais valores exibir "Valor indefinido"

@@ -1,0 +1,50 @@
+Return é uma instrução de interrupção
+
+-----------------------------------------------------------------------------------------------------------------
+Funcionamento:
+-----------------------------------------------------------------------------------------------------------------
+
+O método executa seu retorno quando:
+	- Completa todas suas instruções internas
+	- Chega a uma declaração explicíta de retorno
+	- Lança uma exceção(erro)
+
+-----------------------------------------------------------------------------------------------------------------
+Considerações:
+-----------------------------------------------------------------------------------------------------------------
+
+- O tipo de retorno do método é definido na sua criação e pode ser um primitivo ou objeto;
+- O tipo de dado do return deve ser compatível com o do método;
+- Se o método for sem retorno(void), pode ou não ter um "return" para encerrar sua execução
+
+-----------------------------------------------------------------------------------------------------------------
+Exemplos:
+-----------------------------------------------------------------------------------------------------------------
+
+public String getMensagem(){			correto
+return "Ola!";
+}
+
+public double getJuros(){			correto
+return 2.36;
+}
+
+public int getParcelas(){			errado - tipo de retorno incondizente com o valor retornado (int e float)
+return 1.36f;
+}
+
+public void setIdade(){				errado - void não deve retornar nada
+return 10;
+}
+
+public void executar(){				correto
+...
+return;
+}
+
+-----------------------------------------------------------------------------------------------------------------
+Exercício:
+-----------------------------------------------------------------------------------------------------------------
+Recrie a aplicação que calcula a área dos 3 quadriláteros notáveis. Agora faça métodos retornaem valores.
+
+https://docs.google.com/presentation/d/1InCKAqx_Vocw9BxN95JTtcDpPnredEOa/edit?rtpof=true&sd=true

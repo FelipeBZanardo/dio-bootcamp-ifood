@@ -1,0 +1,46 @@
+java.util.List
+
+-Elementos duplicados e garante ordem de inserção
+
+ArrayList deve ser usado onde mais operações de pesquisa são necessárias, e LinkedList deve ser usado onde mais operações de inserção e exclusão são necessárias
+
+Iniciar uma List:
+	ArrayList<Tipo> nome = new ArrayList<>();
+Iniciar com valores:
+	ArrayList<Tipo> nome = new ArrayList<>(Arrays.asList(valores separados por vírgula));
+Adicionar elementos na lista:
+	nome.add(posição, elementoAAdicionar);
+	nome.add(elementoAAdicionar);				será adiconado ao final da lista
+Ler a lista:
+	sout(nome);
+Posição de um elemento da lista:
+	nome.indexOf(elemento);
+Substituir elementos:
+	nome.set(posição, elementoASubstituir);			usar indexOf para determinar a posição
+Verificar se existe um elemento na lista:
+	nome.contains(elemento);				retorna true ou flase
+Retorna o elemento através do índice:
+	nome.get(index);
+Menor valor de uma lista:
+	Collections.min(nome);
+Maior valor de uma lista:
+	Collections.max(nome);
+Somar os valores de uma lista:
+	Iterator<Double> iterator = nome.iterator();
+	Double soma=0;
+	while(iterator.hasNext()){
+		Double next = iterator.next();
+		soma += next;
+	}
+Quantidade de elementos de uma lista:
+	nome.size();
+Remover um elemento:
+	nome.remove(elemento);
+Remover um elemento através do índice:
+	nome.remove(índice);
+Apagar toda a lista:
+	nome.clear();
+Verificar se a lista está vazia:
+	nome.isEmpty();
+Para comparar/colocar em ordem:
+	implementar a interface Comparable

@@ -1,0 +1,53 @@
+git init :
+	- cria a pasta .git
+	- inicia um repositório dentro da pasta especificada
+
+tracked:
+	- arquivos que o git tem ciência deles
+untracked:
+	- arquivos que o git ainda não tem ciência deles
+
+Unmodified:
+	- arquivo ainda não modificado
+	- se houver modificação no SHA1, o arquivo passa a ser Modified
+	- caso remover um arquivo unmodified, esse arquivo passa a ser untracked
+
+Modified:
+	- arquivo já modificado
+
+Staged:
+	- arquivos se preparando para outro tipo de agrupamento, para alguma ação
+	- os arquivos estão se preparando para um commit
+	- ao utilizar o comando git commit, o arquivo sai de staged e vai para commit, retornando mais uma vez para unmodified
+
+git add nomeArquivo:
+	- Pega um arquivo untracked e move para o Staged
+
+git add *:
+	- pega todos os arquivos da pasta de trabalho e move para o Staged
+
+git commit -m "mensagem":
+	- pega os arquivos em staged e envelopa em uma mensagem, criando um objeto chamado commit
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Ambiente de desenvolvimento:
+	- diretório de trabalho:
+		que contém meu arquivo
+		ao utilizar o comando git add, o arquivo passa para a área de staging
+	- área de staging:
+		citada anteriormente, tracked, untracked, unmodified e etc
+		ao utilizar o comando git commit, o arquivo passa a ser salvo no repositório local
+	- repositório local : 
+		após fazer um commit, o arquivo fica guardado em um repositório local
+		repositório local é apenas composto por commits
+
+Servidor:
+	- repositório remoto:
+		após salvo no repositório local, é possível salvar no servidor, no caso, no github
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+git status:
+
+mv arquivo ./ repositório		mover o arquivo na pasta atual para um outro repositório

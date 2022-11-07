@@ -1,0 +1,11 @@
+git init - iniciar o git					ao escrever esse comando, é gerado uma pasta .git. Essa pasta é oculta e não aparece
+
+ls -a								mostra a pasta oculta .git
+
+git config --global user.email "felipebueno6@hotmail.com"	configura o git de forma global com o email especificado. Deve ser igual ao do GitHub
+
+git config --global user.name FelipeBZanardo			configuta o git com o nome especificado. Deve ser igual ao do GitHub
+
+git add *
+
+git commit -m "commit inicial"

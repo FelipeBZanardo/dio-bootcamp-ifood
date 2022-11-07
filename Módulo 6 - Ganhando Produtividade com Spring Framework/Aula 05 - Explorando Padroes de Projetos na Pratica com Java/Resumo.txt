@@ -1,0 +1,35 @@
+PAdrões de projeto
+
+São soluções consolidadas para problemas recorrentes no desenvolvimento e manutenção de software orientado a objetos
+
+O livro "Design Patterns: Elements of Reusable Object-Oriented Software" (1995) é a principal referência sobre o tema,  aqual tornou os autores Gamma, Helm, Johson e Vlissides conhecidos como "Gang of Four"
+
+São comumente classificados nas seguintes categorias:
+- Padrões Criacionais (criação de objeto(s)): Abstract Factory, Builder, Factory MEthod, Prototype, Singleton(provê instância única de uma determinada classe)
+
+- Padrões Comportamentais(define ou obriga comportamentos adequados em uma determinada estrutura): Chain of Responsibility, iterator, Observer, Strategy(uma interface que detém um contrato seguidas por múltiplas implementações - Exemplo List), Template Method
+
+- Padrões Estruturais(transforma informações): Adapter, Bridge, Composite, DEcorator, Facade(interface que abstrai a complexidade de integração com múltiplos subsistemas), Flyweight, Proxy
+
+
+1) Singleton:
+Permite a criação de uma única instância de uma classe e fornece um modo para recuperá-la
+Não recria instâncias
+Exemplo: pull de um banco de dados
+
+2) Strategy:
+Simplica a variação de algoritmos para a resolução de um mesmo problema
+
+3)Facade:
+Prover uma interface que reduza a complexidade nas integrações com subsistemas
+
+----------------------------------------------------------------------------------
+Spring Framework
+
+Explorando alguns padrões de projetos com Spring:
+- Singleton: @Bean(instância de uma classe Java) e @Autowired(por padrão é singleton)
+-Startegy: @Service(indica um elemnto injetável) e @Repository(tem uma strategy do próprio string que pode-se implementar)
+- Facade: construiremos uma API REST com o mesmo objetivo desse padrão, abstrair a complexidade das seguintes integrações: Spring Data JPA e ViaCEP(Feign)
+
+Api externa utilizada:
+https://viacep.com.br/

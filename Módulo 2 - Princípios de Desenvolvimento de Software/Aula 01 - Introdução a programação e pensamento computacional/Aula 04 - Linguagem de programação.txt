@@ -1,0 +1,153 @@
+HISTÓRIA DA COMPUTAÇÃO:
+	
+3000 a.c. --> Ábaco: primeiro dispositivo de cálculo
+
+1820 --> instrumentos computacionais
+
+1837 --> Conceito de software: Charles Babbage
+
+1940 --> Alan Turing: pai da computação. Definiu conceitos de algoritmos e inteligência artificial
+
+1942 --> Transcrição Ada Lovelace: executa conceitos de Charles Babbage
+
+1940 - 1950 --> codificador de voz
+
+1946 --> ACE: Automatic Computer Enginer
+
+1948 --> Claude Shannon: álgebra booleana
+
+1950 --> Inteligência Artificial de Turing 
+
+Durante a Segunda Guerra:
+
+	Primeiros computadores: válvulas e relés de avanço
+	IBM: separação de memória. Decisão por algoritmo
+	Colossus(1943): programação por fios
+	ENIAC(1946): Primeiro computador programável com 18 mil válvulas 
+	EDVAC(1952): programa armazenado
+
+Computadores pessoais:
+	1975 - linguagem basic - microsoft - intel 8080
+	1976 - apple
+	1977 - apple II
+	1980 - apple III
+	1981 - IBM PC
+	1985 - windows I
+	1988 - windows 2000
+	2001 - windows xp
+
+HISTÓRIA DA LINGUAGEM DA COMPUTAÇÃO:
+	
+	1949 - Assembly - primeira lingaguem de computação - linguagem de máquina(baixo nível)
+	Anos 50 - primiera linguagem de progrmação sem ser linguagem de máquina - COBOL
+	Anos 60 e 70 - Paradigmas da programação - C
+	Anos 90 - linguagem de alto nível - Python, Java, JS, C#
+	Anos 2000 - Novos conceitos - multiparadigmas
+
+	Linguagem de programação:
+		"Método padronizado composto por um conjunto de regras sintáticas e semânticas de implementação de um código fonte"
+
+
+Como o computador entende o programa?
+
+	Código(programa fonte) --> Tradução através de um compilador --> linguagem de máquinas(programa objeto)
+
+	TRadução:
+		- geração do programa objeto
+		- execução do programa objeto
+		- é mais rápido
+		- C++, Java
+
+	Interpretação:
+		- programa fonte executado diretamente
+		- é mais flexível
+		- Python, Ruby, JS
+
+Características de um bom programa:
+		- legibilidade:
+			- Facilidade de leitura
+			- Compreensão
+			- Ortogonalidade: coerência nas instruções
+			- Definição adequada das estruturas
+		- redigibilidade:
+			- Pode conflitar com a legibilidade
+			- Ortogonalidade
+			- Simplicidade da esctita
+			- Suporte à abstração
+			- Reuso do código
+			- Expressividade (uso de instruções avançadas)
+		- confiabilidade:
+			- Verificação de tipos
+			- Trata exceções
+			- Uso de ponteiros
+			- Compatibilidade entre compiladores
+		- custo:
+			- Treinamento
+			- Codificação
+			- Compilação
+			- Execução
+			- Infraestrutura
+
+		- Outras características: 
+			- Atualizações
+			- Uso para IA
+			- Disponibilidade de ferramentas
+			- Comunidade ativa
+			- Adoção pelo mercado
+
+ANÁLISE DE CÓDIGOS:
+	1) Análise léxica (scanner ou leitura):
+		- leitura do programa fonte caracter por caracter
+		- agrupar em palavras reservadas
+		- remove comentários, espaços em branco e etc
+	
+	2) Análise sintática(forma):
+		- estrutura da codificação
+		- erro na grafia
+
+	3) Semântica(significado):
+		- lógica do programa
+
+	if (x=0) é um erro de semântica e não de sintaxe - nada está escrito errado, porém a lógica está
+
+
+PARADIGMAS DA PROGRMAÇÃO:
+	"Forma de resolução de problemas coms diretrizes e limitações específicas de cada paradigma utilizando linguagem de programação"
+
+	Classificação:
+		- Orientação à objeto
+		- Procedural: chamadas sucessivas e procedimentos separados
+		- Funcional: funções
+		- Estruturado: blocos aninhados
+		- Computação distribuída: funções ou módulos independentes
+		- Lógico
+
+	Paradigma estruturado: (C)
+		- Sequência
+		- decisão
+		- iteração
+		
+		Utilização:
+			- problemas simples e diretos
+			- aprender programação
+
+		Tem uma variável associada
+
+	Paradigma orientação a objeto:
+		- Baseado em objetos e suas orientações.
+		- Análogo ao mundo real
+		- reuso de código
+
+		"Um objeto é descrito por características específicas e estado"
+
+		classe é armazenada em um espaço da memória
+
+		"O que eu tenho"(atributo) --> "sou capaz de fazer"(comportamento) --> "como faço(estado)"
+
+		Pilares da orientação ao objeto:
+			- herança: 
+				- classe filha herda características da classe mãe
+				- há atributos específicos da classe filha
+			- encapsulamento
+			- polimorfismo
+			- abstração

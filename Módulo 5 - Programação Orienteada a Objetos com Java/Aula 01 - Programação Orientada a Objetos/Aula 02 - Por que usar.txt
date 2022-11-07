@@ -1,0 +1,32 @@
+linguagem C - paradigma estruturado: linux e boa parte do windows
+
+--------------------------------------------------------------------------------------------------------------------
+PE vs POO:
+--------------------------------------------------------------------------------------------------------------------
+
+-------------
+PE:
+-------------
+
+- Paradigma Estruturado tem uma representação mais simplista. 
+(Conceitos mais limitados)
+- PE foca em operações(funções) e dados
+- PE foca mais no "como fazer"
+
+-------------
+POO:
+-------------
+
+- Paradigma Orientado a Objeto tem uma representação mais realista (os conceitos do mundo real)
+- POO foca na modelagem de entidades e nas interações entre estas
+(nível de abstração maior)
+- POO foca mais no "o que fazer"
+
+----------------
+Vantagens POO:
+----------------
+
+- Melhor coesão - as unidades de código tem responsabilidades bem definidas, não misturadas
+- Melhor acoplamento - acoplamento flexíveis 
+- Diminuição do Gap semântico - Gap semântico é uma diferença da computação com o mundo real
+- Coletor de lixo - automaticamente limpa a memória que não está sendo utilizada

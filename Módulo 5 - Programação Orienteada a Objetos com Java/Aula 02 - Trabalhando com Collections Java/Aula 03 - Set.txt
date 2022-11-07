@@ -1,0 +1,66 @@
+java.util.Set
+
+- não permite elementos duplicados
+- não possui índice(não possui métodos get,set,indexOf)
+
+HasSet: utiliza HasMap
+não mantem a ordem dos elementos
+melhor performace
+permite apenas um elemento null
+
+LinkedHashSet: utiliza LinkedHashMap
+mantem a ordem de inserção dos elementos
+permite apenas um elemento null
+
+TreeSet: utiliza TreeMap
+mantem a ordem natural dos elementos(se for números, ordem númerica e etc..)
+pior performace
+não permite elementos null
+
+HasSet:
+Criar um Set:
+	Set<Tipo> nome = new HasSet<>(Arrays.asList(valores separados por vírgula));
+Posição de um elemento da lista:
+	não é possível
+Substituir elementos:
+	não é possível
+Verificar se existe um elemento na lista:
+	nome.contains(elemento);
+Retorna o elemento através do índice:
+	não é possível;
+Menor valor de um conjunto:
+	Collections.min(nome);
+Maior valor de uma conjunto:
+	Collections.max(nome);
+Somar os valores de um conjunto:
+	Iterator<Double> iterator = nome.iterator();
+	Double soma=0;
+	while(iterator.hasNext()){
+		Double next = iterator.next();
+		soma += next;
+	}
+Quantidade de elementos de um conjunto:
+	nome.size();
+Remover um elemento:
+	nome.remove(elemento);
+Remover um elemento através do índice:
+	não é possível
+Apresentar a lista em ordem de input:
+	não é possível com HasSet
+Apagar todo o conjunto:
+	nome.clear();
+Verificar se o conjunto está vazio:
+	nome.isEmpty();
+
+LinkedHasSet:
+Criar um Set:
+	Set<Tipo> nome = new LinkedHasSet<>(Arrays.asList(valores separados por vírgula));
+Adicionar elementos:
+	nome.add(elemento);
+Apresentar a lista em ordem de input:
+	sout(nome);
+
+TreeSet:
+	Apresenta os valores em ordem natural
+Criar um Set:
+	Set<Tipo> nome = new TreeSet<>(Arrays.asList(valores separados por vírgula));	

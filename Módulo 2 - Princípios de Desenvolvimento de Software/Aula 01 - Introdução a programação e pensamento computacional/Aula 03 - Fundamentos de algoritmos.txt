@@ -1,0 +1,79 @@
+Função do computador: processar as operações(dados e instruções)
+
+tipos de dados:
+	- númericos: inteiros e reais
+	- caracteres(texto)
+	- lógico(boolean)
+
+variável: estrutura mutável, incosntante(muda seu conteúdo). Armazena um dado temporariamente
+
+regras:
+	- atribuição de um ou mais caracteres
+	- primeiro caracter é uma letra e não número
+	- sem especos em branco
+	- Não utilizar palavras reservadas da programação
+
+papéis de uma variável:
+	- ação: modificação de estado
+	- controle: vigiada
+
+Operadores podem ser binários ou unários
+
+Instrução:
+	"São linguagens de palavras-chave de uma determinada linguagem de programação que 
+		tem por finalidade comandar um computador que irá tratar os dados"
+
+Condicional: 
+	- contém ou implica em uma suposição ou hipótese
+
+Tipos de estruturas condicionais:
+	- simples(apenas um caminho - if)
+	- composta(dois caminhos - if else)
+	- encadeada(duas condições - vários caminhos - if elsif else)
+
+	Operadores condicionais: =, <>, >,< <=, >=
+
+Estruturas de repetição:
+	(laço, loop, malha...)
+	condições de parada:
+		- número de repetições pré fixadas
+		- condição a ser satisfeita
+	
+	Vantagens:
+		- redução de linhas
+		- compreensão facilitada
+		- redução de erros
+
+	Tipos:
+		- enquanto...faça...
+		- repita...até...
+		- para...de...até...faça...
+
+Vetor:
+	"Vetor é caracterizado por uma variável dimensionada com tamanho pré-fixado"
+	É uma matriz unidimensional(uma linha só)
+
+Matriz:
+	"É uma tabela organizada em linhas e colunas no formaro m x n, onde m representa o número de linhas e n o número de colunas
+
+Funções:
+	Baseado em funções matemáticas
+	"Funções ou sub-rotinas são blocos de instruções que realizam tarefas específicas"
+	Usado para modular o problema
+
+	Parâmetros de uma função:
+		- definição
+		- nome
+		- invocação
+		- variável local
+
+Instrução de entrada:
+	"Consiste na inserção e recebimento de dados do mundo real por meio de ação de alguma interface, seja teclado, mouse, arquivos, entre outro"
+
+Instrução de saída:
+	"Consiste na impressão dos dados do mundo abstrato digital por meio de ação de alguma interface. 
+	Os formatos podem variar desde simples arquivos binários até complexas query de banco de dados"
+
+	Tipos de saídas:
+		-saídas programadas
+		-saídas por interrupção: definida pelos periféricos

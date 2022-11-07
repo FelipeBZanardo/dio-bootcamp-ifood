@@ -1,0 +1,13 @@
+git pull origin master:
+	ele puxa do GitHub a versão mais recente modificada por alguém do repositório, ou seja, 
+	a versão do repositório local é diferente do repositório remoto
+
+
+Clonar um repositório remoto para seu repositório local:
+1º passo: acessar o GitHub com o repositório a ser clonado
+2º passo: clicar no ícone verde "Código"
+3º passo: copiar a url https							https://github.com/python/cpython.git
+4º passo: acessar Git Bash na pasta onde queremos clonar o repositório
+5º passo: git clone url
+	  git clone https://github.com/python/cpython.git
+		 

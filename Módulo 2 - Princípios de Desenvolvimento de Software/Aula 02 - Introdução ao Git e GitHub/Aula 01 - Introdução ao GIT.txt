@@ -1,0 +1,11 @@
+GIT:
+	- Criado em 2005 por Linus Torvalds (criador do Linux) 
+	- Sistema de versionamento de código distribuído.
+	- Cria e monitora diferentes versões de um código dentro da nossa máquina
+	- é open source
+
+GITHUB:
+	- pertence a microsoft
+	- repositório online para armazenamento de códigos
+	- existe planos pagos
+	- espécie de rede social de TI

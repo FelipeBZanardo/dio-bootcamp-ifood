@@ -1,0 +1,92 @@
+-----------------------------------------------------------------------------------------------------------------
+Métodos:
+-----------------------------------------------------------------------------------------------------------------
+
+"É uma porção de código (sub-rotina) que é disponibilizada por uma classe. 
+Este é executada quando é feita ma aquisição a ele. São responsáveis por definir e realizar um determinado comportamento"
+
+-----------------------------------------------------------------------------------------------------------------
+Padrão de definição:
+-----------------------------------------------------------------------------------------------------------------
+
+<?visibilidade?><?tipo?><?modificador?>retorno nome(<?parâmetros?>)<?exceções?>corpo
+
+*V: public, protected, private - POO
+T: concreto ou abstrato - POO
+M: static ou final - POO
+*R: tipo de dado(int, float, double...) ou void(sem retorno)
+*N: nome que é fornecido ao método - mesmas regras para definições de variáveis
+*P: parâmetros que pode receber - dentro dos parênteses
+E: exceções que pode lançar - erros a serem disparados
+*C: código que possui ou vazio - POO
+
+* mais utilizados
+
+-----------------------------------------------------------------------------------------------------------------
+Exemplos:
+-----------------------------------------------------------------------------------------------------------------
+
+public String getNome(){...}
+public double calcularTotalNota(){...}
+public int verificarDistancia(int cordenada1, int cordenada2){...}
+public abstract void executar();
+public void alterarFabricante(Fabricante fabricante){...}
+public Relatorio gerarDadosAnaliticos(Cliente cliente, List<Compra>compras) {..}
+
+forma mais utilizada: public static R N(P){...}
+
+-----------------------------------------------------------------------------------------------------------------
+Utilização:
+-----------------------------------------------------------------------------------------------------------------
+
+Passa-se uma mensagem através de uma classe ou objeto.
+
+nome_da_classe.nome_do_metodo(); ou nome_da_classe.nome_do_metodo(...);
+nome_do_objeto.nome_do_metodo(); ou nome_do_objeto.nome_do_metodo(...);
+
+Math.random(); Math.sqrt(4);
+usuario.getEmail(); ou usuario.alterarEndereco(endereco);
+
+nome da class: primeira letra em maiúsculo
+nome do objeto: primeira letra em minúsculo
+
+-----------------------------------------------------------------------------------------------------------------
+Particularidades:
+-----------------------------------------------------------------------------------------------------------------
+
+- Assinatura: é a forma de identificar unicamente o método:
+	Ass = nome + parâmetros
+
+	Método: 
+		public double calcularTotalVenda (double precoItem1, double precoItem2, double precoItem3) {...}
+
+	Assinatura:
+		calcularTotalVenda(double precoItem1, double precoItem2, double precoItem3) 
+
+- Construtor e Destrutor: são métodos especiais usados na Orientação a Objetos
+
+- Mensagem: é o ato de solicitar ao método que o mesmo o execute. Esta pode ser direcionada a um objeto ou a uma classe
+
+- Passagem de parâmetros:
+	- por valor (cópia)
+	- por referência (endereço)
+
+-----------------------------------------------------------------------------------------------------------------
+Boas Práticas:
+-----------------------------------------------------------------------------------------------------------------
+
+- Nomes devem ser descritivos, mas curtos
+- Notação camelo
+- Deve possuir entre 80 e 120 linhas
+- Evite lista de parâmetros longas
+- Visibilidades adequadas
+
+-----------------------------------------------------------------------------------------------------------------
+Exercício:
+-----------------------------------------------------------------------------------------------------------------
+
+Crie uma aplicação que resolva as seguintes situações:
+- calcule as 4 operações básicas: soma, subtração, multiplicação e divisão. Sempre 2 valores devem ser passados.
+- a partir da hora do dia, informe a mensam adequadas de bom dia, boa tarde e boa noite
+- calcule o valor final de um empréstimo, a partir do valor solicitado. Taxas e parcelas influenciam.
+Defina arbritariamente as faixas que influenciam nos valores

@@ -1,0 +1,45 @@
+GIT: 
+	- CLI: Comand Line Interface
+	- GUI: Grafic User Interfac
+
+	<<<<<GIT é CLI>>>>
+
+1º passo: Prompt Comando : cmd
+		O local padrão é diretório do usuário atual
+2º passo: digitar um comando
+
+Comandos básicos: windows(linux)
+	Todos os comandos a seguir possuem flags que são complementos do comando que acrescentam, modificam ou formantam
+	os comandos.
+
+	dir(ls) - lista de diretórios contidos na pasta atual
+
+	cd(cd) - change directory - permite a navenação entre as pastas
+		cd/ - vai para a pasta c:
+		cd nome da pasta - vai para a pasta cujo o local foi especificado
+		cd .. - volta para a pasta anterior
+
+	cls(clear ou crtl + L) - clear screen - limpa a tela do cmd
+
+	TAB - auto completar 
+
+	mkdir(mkdir) - make directory - criar uma pasta(diretório)
+		mkdir nome da pasta - será criada uma pasta com o nome especificado
+
+	echo - printa no próprio terminal
+		echo hello - será escrito na tela a palavra hello
+
+	> - redirecionador de fluxo - pega a saída da função escrita anteriormente a ele e passa para um arquivo
+		echo hello > hello.txt - será escrito a palavra hello em hello.txt - se o arquivo não existir, ele será criado.
+					Caso esse arquivo seja existente, o conteúdo anterior é deletado e o novo conteúdo será escrito. 
+
+	del - deleta apenas arquivos e não repositórios
+		del workspace - a pasta workspace não será apagada, mas os arquivos contidos nela será
+
+	seta para cima - comandos digitados anteriormente
+
+	rmdir /S /Q (rm - rf) - remove directory - remove o diretório
+		rmdir workspace /S /Q - toda a pasta workspace é deleta ou removida
+
+	pwd - mostra o caminho completo
+

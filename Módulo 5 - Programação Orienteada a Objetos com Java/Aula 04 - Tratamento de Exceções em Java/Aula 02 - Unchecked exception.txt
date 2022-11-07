@@ -1,0 +1,11 @@
+Tentar dividir por 0:
+catch (NumberFormatException e)
+e.getMessage()
+
+Conversão de um número de forma inconsistente:
+catch (NumberFormatException e)
+e.getMessage()
+
+Usar caixa de diálogo:
+JOptionPane.ShowInputDialog("");
+JOptionsPane.ShowMessageDialog("");
